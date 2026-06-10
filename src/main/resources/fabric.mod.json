@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "geode",
+	"version": "${version}",
+	"name": "Geode+",
+	"description": "this is a mod i think and i know what i am doing /srs",
+	"authors": [
+		"kuwo1 and noscratchypants"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://www.youtube.com/watch?v=1goAp0XmhZQ&list=RD1goAp0XmhZQ&start_radio=1"
+	},
+	"license": "MIT-License",
+	"icon": "assets/geode/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.kuwo1.geodeplus.Geode"
+		],
+		"fabric-datagen": [
+			"net.kuwo1.geodeplus.GeodeDataGenerator"
+		]
+	},
+	"mixins": [
+		"geode.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
