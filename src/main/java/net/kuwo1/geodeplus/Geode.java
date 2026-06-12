@@ -2,6 +2,9 @@ package net.kuwo1.geodeplus;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kuwo1.geodeplus.Item.ModItems;
+import net.kuwo1.geodeplus.block.ModBlocks;
+import net.kuwo1.geodeplus.creativemodetab.ModCreativeModeTabs;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,10 @@ public class Geode implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModCreativeModeTabs.registerModCreativeModeTabs();
+
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 
 	}
 }

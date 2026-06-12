@@ -1,0 +1,37 @@
+package net.kuwo1.geodeplus.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
+import net.kuwo1.geodeplus.block.ModBlocks;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.tags.BlockTags;
+
+import java.util.concurrent.CompletableFuture;
+
+public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
+    public ModBlockTagsProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> registryLookupFuture) {
+        super(output, registryLookupFuture);
+    }
+
+    @Override
+    protected void addTags(HolderLookup.Provider registries) {
+        valueLookupBuilder(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.GEODEPACK_BRICKS)
+                .add(ModBlocks.BASALT_BRICKS)
+                .add(ModBlocks.SELENITE_BLOCK)
+                .add(ModBlocks.CALCITE_BRICKS)
+                .add(ModBlocks.GEODEPACK_BLOCK)
+                .add(ModBlocks.CELESTINE_BLOCK)
+                .add(ModBlocks.CELESTINE_BRICKS)
+                .add(ModBlocks.GEODEPACK)
+                .add(ModBlocks.BUDDING_CELESTINE)
+                .add(ModBlocks.SMALL_CELESTINE_BUD)
+                .add(ModBlocks.MEDIUM_CELESTINE_BUD)
+                .add(ModBlocks.LARGE_CELESTINE_BUD)
+                .add(ModBlocks.CELESTINE_CLUSTER)
+                .add(ModBlocks.BERYL_BLOCK)
+                .add(ModBlocks.BUDDING_BERYL)
+                .add(ModBlocks.SMALL_BERYL_BUD);
+
+    }
+}

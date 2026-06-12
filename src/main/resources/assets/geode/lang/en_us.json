@@ -1,0 +1,26 @@
+{
+  "item.geode.basalt_clump": "Basalt Clump",
+  "item.geode.calcite_clump": "Calcite Clump",
+
+  "block.geode.basalt_bricks": "Basalt Bricks",
+  "block.geode.calcite_bricks": "Calcite Bricks",
+  "block.geode.geodepack_bricks": "Geodepack Bricks",
+  "block.geode.geodepack_block": "Geodepack Block",
+  "block.geode.selenite_block": "Block of Selenite",
+  "block.geode.celestine_block": "Block of Celestine",
+  "block.geode.geodepack": "Geodepack",
+  "block.geode.celestine_bricks": "Celestine Bricks",
+  "block.geode.budding_celestine": "Budding Celestine",
+  "block.geode.small_celestine_bud": "Small Celestine Bud",
+  "block.geode.medium_celestine_bud": "Medium Celestine Bud",
+  "block.geode.large_celestine_bud": "Large Celestine Bud",
+  "block.geode.celestine_cluster": "Celestine Cluster",
+  "block.geode.beryl_block": "Block of Beryl",
+  "block.geode.budding_beryl": "Budding Beryl",
+  "block.geode.small_beryl_bud": "Small Beryl Bud",
+
+
+
+  "creativemodetab.geode.geode_items": "Geode Mod Items",
+  "creativemodetab.geode.geode_blocks": "Geode Blocks"
+}
