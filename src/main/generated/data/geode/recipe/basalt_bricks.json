@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "basalt",
+  "key": {
+    "B": "geode:basalt_clump"
+  },
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "result": {
+    "id": "geode:basalt_bricks"
+  }
+}

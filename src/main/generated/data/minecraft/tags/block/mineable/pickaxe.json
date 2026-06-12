@@ -1,0 +1,20 @@
+{
+  "values": [
+    "geode:geodepack_bricks",
+    "geode:basalt_bricks",
+    "geode:selenite_block",
+    "geode:calcite_bricks",
+    "geode:geodepack_block",
+    "geode:celestine_block",
+    "geode:celestine_bricks",
+    "geode:geodepack",
+    "geode:budding_celestine",
+    "geode:small_celestine_bud",
+    "geode:medium_celestine_bud",
+    "geode:large_celestine_bud",
+    "geode:celestine_cluster",
+    "geode:beryl_block",
+    "geode:budding_beryl",
+    "geode:small_beryl_bud"
+  ]
+}
