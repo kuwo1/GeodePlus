@@ -10,7 +10,9 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.StairBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
 import java.util.function.Function;
@@ -88,15 +90,33 @@ public class ModBlocks {
    public static final Block SALT_BRICKS = registerBlock("salt_bricks",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-public static final Block FLINT_BLOCK = registerBlock("flint_block",
+    public static final Block FLINT_BLOCK = registerBlock("flint_block",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final Block FLINT_BRICKS = registerBlock("flint_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final Block BUDDING_FLINT = registerBlock("budding_flint",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-public static final Block FLINT_BRICKS = registerBlock("flint_bricks",
-            properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-public static final Block BUDDING_FLINT = registerBlock("budding_flint",
-            properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final Block BASALT_BRICK_STAIRS = registerBlock("basalt_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block GEODEPACK_BRICK_STAIRS = registerBlock("geodepack_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
+
+    public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block BASALT_BRICK_SLAB = registerBlock("basalt_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block GEODEPACK_BRICK_SLAB = registerBlock("geodepack_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function){
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Geode.MOD_ID, name))));

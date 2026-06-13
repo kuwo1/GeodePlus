@@ -8,6 +8,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import org.apache.commons.codec.language.bm.Rule;
 import org.intellij.lang.annotations.Identifier;
@@ -136,6 +137,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.FLINT_BLOCK),has(ModBlocks.FLINT_BLOCK))
                         .group("calcite")
                         .save(output, "flint_bricks");
+
+
+                stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.BASALT_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.BASALT_BRICKS),has(ModBlocks.BASALT_BRICKS))
+                        .group("calcite")
+                        .save(output);
+                stairBuilder(ModBlocks.CALCITE_BRICK_STAIRS, Ingredient.of(ModBlocks.CALCITE_BRICK_STAIRS))
+                        .unlockedBy(getHasName(ModBlocks.CALCITE_BRICKS),has(ModBlocks.CALCITE_BRICKS))
+                        .group("calcite")
+                        .save(output);
+                stairBuilder(ModBlocks.GEODEPACK_BRICK_STAIRS, Ingredient.of(ModBlocks.GEODEPACK_BRICK_STAIRS))
+                        .unlockedBy(getHasName(ModBlocks.GEODEPACK_BRICKS),has(ModBlocks.GEODEPACK_BRICKS))
+                        .group("calcite")
+                        .save(output);
+
+
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_SLAB, ModBlocks.BASALT_BRICKS);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_BRICK_SLAB, ModBlocks.CALCITE_BRICKS);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEODEPACK_BRICK_SLAB, ModBlocks.GEODEPACK_BRICKS);
+
 
 
 

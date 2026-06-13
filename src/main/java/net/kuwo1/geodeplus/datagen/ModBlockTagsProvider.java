@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.kuwo1.geodeplus.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -42,7 +43,20 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.SALT_BRICKS)
                 .add(ModBlocks.FLINT_BLOCK)
                 .add(ModBlocks.FLINT_BRICKS)
-                .add(ModBlocks.BUDDING_FLINT);
+                .add(ModBlocks.BASALT_BRICK_SLAB)
+                .add(ModBlocks.BUDDING_FLINT)
+                .add(ModBlocks.BASALT_BRICK_STAIRS)
+                .add(ModBlocks.CALCITE_BRICK_STAIRS);
+
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BASALT_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CALCITE_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.GEODEPACK_BRICK_STAIRS);
+
+
+        valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.BASALT_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.CALCITE_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.GEODEPACK_BRICK_SLAB);
+
 
     }
 }

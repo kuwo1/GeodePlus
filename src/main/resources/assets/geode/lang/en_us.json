@@ -38,6 +38,16 @@
   "block.geode.flint_bricks": "Flint Bricks",
   "block.geode.budding_flint": "Budding Flint",
 
+  "block.geode.basalt_brick_stairs": "Basalt Brick Stairs",
+  "block.geode.calcite_brick_stairs": "Calcite Brick Stairs",
+  "block.geode.geodepack_brick_stairs": "Geodepack Brick Stairs",
+
+
+  "block.geode.basalt_brick_slab": "Basalt Brick Slab",
+  "block.geode.calcite_brick_slab": "Calcite Brick Slab",
+  "block.geode.geodepack_brick_slab": "Geodepack Brick Slab",
+
+
 
 
 

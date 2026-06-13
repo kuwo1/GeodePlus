@@ -15,9 +15,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
-        blockModelGenerators.createTrivialCube(ModBlocks.BASALT_BRICKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.CALCITE_BRICKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.GEODEPACK_BRICKS);
+
+
         blockModelGenerators.createTrivialCube(ModBlocks.GEODEPACK_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.SELENITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.GEODEPACK);
@@ -42,6 +41,20 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLINT);
+
+
+        blockModelGenerators.family(ModBlocks.BASALT_BRICKS)
+                .stairs(ModBlocks.BASALT_BRICK_STAIRS)
+                .slab(ModBlocks.BASALT_BRICK_SLAB);
+        blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)
+                .stairs(ModBlocks.CALCITE_BRICK_STAIRS)
+                .slab(ModBlocks.CALCITE_BRICK_SLAB);
+        blockModelGenerators.family(ModBlocks.GEODEPACK_BRICKS)
+                .stairs(ModBlocks.GEODEPACK_BRICK_STAIRS)
+                .slab(ModBlocks.GEODEPACK_BRICK_SLAB);
+
+
+
 
     }
 

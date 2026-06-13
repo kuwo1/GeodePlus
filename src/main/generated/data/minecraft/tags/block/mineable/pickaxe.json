@@ -26,6 +26,9 @@
     "geode:salt_bricks",
     "geode:flint_block",
     "geode:flint_bricks",
-    "geode:budding_flint"
+    "geode:basalt_brick_slab",
+    "geode:budding_flint",
+    "geode:basalt_brick_stairs",
+    "geode:calcite_brick_stairs"
   ]
 }
