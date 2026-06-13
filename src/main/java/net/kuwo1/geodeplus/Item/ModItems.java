@@ -16,6 +16,9 @@ import java.util.function.Function;
 public class ModItems {
     public static final Item BASALTCLUMP = registerItem("basalt_clump", Item::new);
     public static final Item CALCITECLUMP = registerItem("calcite_clump", Item::new);
+    public static final Item CELESTINESHARD = registerItem("celestine_shard", Item::new);
+    public static final Item BERYLSHARD = registerItem("beryl_shard", Item::new);
+    public static final Item SPINELSHARD = registerItem("spinel_shard", Item::new);
 
 
 

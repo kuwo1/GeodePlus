@@ -40,5 +40,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
     itemModelGenerators.generateFlatItem(ModItems.BASALTCLUMP, ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(ModItems.CALCITECLUMP, ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(ModItems.CELESTINESHARD, ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(ModItems.BERYLSHARD, ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(ModItems.SPINELSHARD, ModelTemplates.FLAT_ITEM);
     }
 }

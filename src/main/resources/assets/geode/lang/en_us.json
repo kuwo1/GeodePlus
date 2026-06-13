@@ -1,6 +1,9 @@
 {
   "item.geode.basalt_clump": "Basalt Clump",
   "item.geode.calcite_clump": "Calcite Clump",
+  "item.geode.celestine_shard": "Celestine Shard",
+  "item.geode.beryl_shard": "Beryl Shard",
+  "item.geode.spinel_shard": "Spinel Shard",
 
   "block.geode.basalt_bricks": "Basalt Bricks",
   "block.geode.calcite_bricks": "Calcite Bricks",
@@ -18,8 +21,9 @@
   "block.geode.beryl_block": "Block of Beryl",
   "block.geode.budding_beryl": "Budding Beryl",
   "block.geode.small_beryl_bud": "Small Beryl Bud",
-  "block.geode.amethyst_bricks": "Amethyst_Bricks",
-  "block.geode.beryl_bricks": "Beryl_Bricks",
+  "block.geode.amethyst_bricks": "Amethyst Bricks",
+  "block.geode.beryl_bricks": "Beryl Bricks",
+
 
 
 

@@ -32,13 +32,13 @@ public class ModBlocks {
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block GEODEPACK = registerBlock("geodepack",
-            properties -> new Block(properties.strength(3f)
+            properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
    public static final Block CELESTINE_BLOCK = registerBlock("celestine_block",
-            properties -> new Block(properties.strength(3f)
+            properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
    public static final Block CELESTINE_BRICKS = registerBlock("celestine_bricks",
-            properties -> new Block(properties.strength(3f)
+            properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
    public static final Block BUDDING_CELESTINE = registerBlock("budding_celestine",
             properties -> new Block(properties.strength(3f)

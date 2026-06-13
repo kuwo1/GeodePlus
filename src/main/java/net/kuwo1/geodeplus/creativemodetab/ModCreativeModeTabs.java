@@ -19,6 +19,9 @@ public class ModCreativeModeTabs {
                     .displayItems((parameters, output) -> {
                       output.accept(ModItems.BASALTCLUMP);
                       output.accept(ModItems.CALCITECLUMP);
+                      output.accept(ModItems.CELESTINESHARD);
+                      output.accept(ModItems.BERYLSHARD);
+                      output.accept(ModItems.SPINELSHARD);
 
 
                     }).build());
