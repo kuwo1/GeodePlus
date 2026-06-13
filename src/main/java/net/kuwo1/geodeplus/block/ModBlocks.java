@@ -2,6 +2,7 @@ package net.kuwo1.geodeplus.block;
 
 
 import net.kuwo1.geodeplus.Geode;
+import net.kuwo1.geodeplus.block.custom.MagicBlock;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -98,6 +99,16 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final Block BUDDING_FLINT = registerBlock("budding_flint",
             properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+    public static final Block CHOCOLATE_DIAMOND_BLOCK = registerBlock("chocolate_diamond_block",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block CHOCOLATE_DIAMOND_BRICKS = registerBlock("chocolate_diamond_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            properties -> new MagicBlock(properties.strength(2f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final Block BASALT_BRICK_STAIRS = registerBlock("basalt_brick_stairs",

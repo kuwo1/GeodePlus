@@ -137,6 +137,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.FLINT_BLOCK),has(ModBlocks.FLINT_BLOCK))
                         .group("calcite")
                         .save(output, "flint_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.CHOCOLATE_DIAMOND_BLOCK)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C',ModItems.CHOCOLATEDIAMONDSHARD)
+                        .unlockedBy(getHasName(ModItems.CHOCOLATEDIAMONDSHARD),has(ModItems.CHOCOLATEDIAMONDSHARD))
+                        .group("calcite")
+                        .save(output, "chocolate_diamond_block");
+                shaped(RecipeCategory.MISC,ModBlocks.CHOCOLATE_DIAMOND_BRICKS, 4)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C',ModBlocks.CHOCOLATE_DIAMOND_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.CHOCOLATE_DIAMOND_BLOCK),has(ModBlocks.CHOCOLATE_DIAMOND_BLOCK))
+                        .group("calcite")
+                        .save(output, "chocolate_diamond_bricks");
 
 
                 stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.BASALT_BRICKS))

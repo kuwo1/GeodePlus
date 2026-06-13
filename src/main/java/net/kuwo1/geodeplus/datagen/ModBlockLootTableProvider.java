@@ -42,6 +42,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.FLINT_BLOCK);
         dropSelf(ModBlocks.FLINT_BRICKS);
         dropSelf(ModBlocks.BUDDING_FLINT);
+        dropSelf(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
+        dropSelf(ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
+
+        dropSelf(ModBlocks.MAGIC_BLOCK);
 
 
         dropSelf(ModBlocks.BASALT_BRICK_STAIRS);

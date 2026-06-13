@@ -29,6 +29,9 @@
     "geode:basalt_brick_slab",
     "geode:budding_flint",
     "geode:basalt_brick_stairs",
-    "geode:calcite_brick_stairs"
+    "geode:calcite_brick_stairs",
+    "geode:chocolate_diamond_block",
+    "geode:chocolate_diamond_bricks",
+    "geode:magic_block"
   ]
 }

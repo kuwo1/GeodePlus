@@ -63,6 +63,10 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.FLINT_BLOCK);
                       output.accept(ModBlocks.FLINT_BRICKS);
                       output.accept(ModBlocks.BUDDING_FLINT);
+                      output.accept(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
+                      output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
+
+                      output.accept(ModBlocks.MAGIC_BLOCK);
 
                       output.accept(ModBlocks.BASALT_BRICK_STAIRS);
                       output.accept(ModBlocks.CALCITE_BRICK_STAIRS);

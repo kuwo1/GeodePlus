@@ -37,6 +37,10 @@
   "block.geode.flint_block": "Block of Flint",
   "block.geode.flint_bricks": "Flint Bricks",
   "block.geode.budding_flint": "Budding Flint",
+  "block.geode.chocolate_diamond_block": "Block of Chocolate Diamond",
+  "block.geode.chocolate_diamond_bricks": "Chocolate Diamond Bricks",
+
+  "block.geode.magic_block": "Magic Block",
 
   "block.geode.basalt_brick_stairs": "Basalt Brick Stairs",
   "block.geode.calcite_brick_stairs": "Calcite Brick Stairs",

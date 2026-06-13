@@ -46,7 +46,11 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.BASALT_BRICK_SLAB)
                 .add(ModBlocks.BUDDING_FLINT)
                 .add(ModBlocks.BASALT_BRICK_STAIRS)
-                .add(ModBlocks.CALCITE_BRICK_STAIRS);
+                .add(ModBlocks.CALCITE_BRICK_STAIRS)
+                .add(ModBlocks.CHOCOLATE_DIAMOND_BLOCK)
+                .add(ModBlocks.CHOCOLATE_DIAMOND_BRICKS)
+
+                .add(ModBlocks.MAGIC_BLOCK);
 
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BASALT_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CALCITE_BRICK_STAIRS);
