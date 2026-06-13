@@ -80,6 +80,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.BERYL_BLOCK),has(ModBlocks.BERYL_BLOCK))
                         .group("calcite")
                         .save(output, "beryl_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.SELENITE_BLOCK)
+                        .pattern("SS")
+                        .pattern("SS")
+                        .define('S',ModItems.SELENITESHARD)
+                        .unlockedBy(getHasName(ModItems.SELENITESHARD),has(ModItems.SELENITESHARD))
+                        .group("calcite")
+                        .save(output, "selenite_block");
+                shaped(RecipeCategory.MISC,ModBlocks.SELENITE_BRICKS, 4)
+                        .pattern("SS")
+                        .pattern("SS")
+                        .define('S',ModBlocks.SELENITE_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.SELENITE_BLOCK),has(ModBlocks.SELENITE_BLOCK))
+                        .group("calcite")
+                        .save(output, "selenite_bricks");
 
 
 
