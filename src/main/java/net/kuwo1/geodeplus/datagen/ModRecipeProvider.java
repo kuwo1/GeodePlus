@@ -122,6 +122,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.SALT_BLOCK),has(ModBlocks.SALT_BLOCK))
                         .group("calcite")
                         .save(output, "salt_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.FLINT_BLOCK, 4)
+                        .pattern("FF")
+                        .pattern("FF")
+                        .define('F',ModItems.FLINTSHARD)
+                        .unlockedBy(getHasName(ModItems.FLINTSHARD),has(ModItems.FLINTSHARD))
+                        .group("calcite")
+                        .save(output, "flint_block");
+                shaped(RecipeCategory.MISC,ModBlocks.FLINT_BRICKS, 4)
+                        .pattern("FF")
+                        .pattern("FF")
+                        .define('F',ModBlocks.FLINT_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.FLINT_BLOCK),has(ModBlocks.FLINT_BLOCK))
+                        .group("calcite")
+                        .save(output, "flint_bricks");
 
 
 

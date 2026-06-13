@@ -60,6 +60,9 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.BUDDING_SELENITE);
                       output.accept(ModBlocks.SALT_BLOCK);
                       output.accept(ModBlocks.SALT_BRICKS);
+                      output.accept(ModBlocks.FLINT_BLOCK);
+                      output.accept(ModBlocks.FLINT_BRICKS);
+                      output.accept(ModBlocks.BUDDING_FLINT);
 
 
                     }).build());

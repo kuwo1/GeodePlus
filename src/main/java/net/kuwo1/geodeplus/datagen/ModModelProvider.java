@@ -39,6 +39,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_SELENITE);
         blockModelGenerators.createTrivialCube(ModBlocks.SALT_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.SALT_BRICKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BRICKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLINT);
 
     }
 

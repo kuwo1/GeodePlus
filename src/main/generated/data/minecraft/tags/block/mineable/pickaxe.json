@@ -23,6 +23,9 @@
     "geode:spinel_bricks",
     "geode:budding_selenite",
     "geode:salt_block",
-    "geode:salt_bricks"
+    "geode:salt_bricks",
+    "geode:flint_block",
+    "geode:flint_bricks",
+    "geode:budding_flint"
   ]
 }
