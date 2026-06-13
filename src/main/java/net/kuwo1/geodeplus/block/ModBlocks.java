@@ -64,6 +64,12 @@ public class ModBlocks {
    public static final Block SMALL_BERYL_BUD = registerBlock("small_beryl_bud",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+   public static final Block BERYL_BRICKS = registerBlock("beryl_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+   public static final Block AMETHYST_BRICKS = registerBlock("amethyst_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function){
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Geode.MOD_ID, name))));

@@ -31,7 +31,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.CELESTINE_CLUSTER)
                 .add(ModBlocks.BERYL_BLOCK)
                 .add(ModBlocks.BUDDING_BERYL)
-                .add(ModBlocks.SMALL_BERYL_BUD);
+                .add(ModBlocks.SMALL_BERYL_BUD)
+                .add(ModBlocks.BERYL_BRICKS)
+                .add(ModBlocks.AMETHYST_BRICKS);
 
     }
 }

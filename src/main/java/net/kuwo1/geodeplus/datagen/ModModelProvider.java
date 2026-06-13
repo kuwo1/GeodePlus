@@ -31,6 +31,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);
         blockModelGenerators.createTrivialCube(ModBlocks.SMALL_BERYL_BUD);
+        blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BRICKS);
+        blockModelGenerators.createTrivialCube(ModBlocks.AMETHYST_BRICKS);
 
     }
 
