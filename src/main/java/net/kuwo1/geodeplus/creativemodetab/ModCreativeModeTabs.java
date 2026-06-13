@@ -55,6 +55,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.BERYL_BRICKS);
                       output.accept(ModBlocks.AMETHYST_BRICKS);
                       output.accept(ModBlocks.SELENITE_BRICKS);
+                      output.accept(ModBlocks.SPINEL_BLOCK);
 
 
                     }).build());

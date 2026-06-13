@@ -73,6 +73,12 @@ public class ModBlocks {
    public static final Block SELENITE_BRICKS = registerBlock("selenite_bricks",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+   public static final Block SPINEL_BLOCK = registerBlock("spinel_block",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+   public static final Block SPINEL_BRICKS = registerBlock("spinel_brick",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function){
         Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Geode.MOD_ID, name))));
