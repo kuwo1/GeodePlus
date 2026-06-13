@@ -4,6 +4,11 @@
   "item.geode.celestine_shard": "Celestine Shard",
   "item.geode.beryl_shard": "Beryl Shard",
   "item.geode.spinel_shard": "Spinel Shard",
+  "item.geode.fluorite_shard": "Fluorite Shard",
+  "item.geode.chocolate_diamond_shard": "Chocolate Diamond Shard",
+  "item.geode.salt_shard": "Salt Shard",
+  "item.geode.selenite_shard": "Selenite Shard",
+  "item.geode.flint_shard": "Flint Shard",
 
   "block.geode.basalt_bricks": "Basalt Bricks",
   "block.geode.calcite_bricks": "Calcite Bricks",

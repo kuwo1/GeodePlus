@@ -22,6 +22,11 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.CELESTINESHARD);
                       output.accept(ModItems.BERYLSHARD);
                       output.accept(ModItems.SPINELSHARD);
+                      output.accept(ModItems.FLUORITESHARD);
+                      output.accept(ModItems.CHOCOLATEDIAMONDSHARD);
+                      output.accept(ModItems.SALTSHARD);
+                      output.accept(ModItems.SELENITESHARD);
+                      output.accept(ModItems.FLINTSHARD);
 
 
                     }).build());
