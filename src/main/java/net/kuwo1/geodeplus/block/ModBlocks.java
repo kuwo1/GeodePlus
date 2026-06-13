@@ -3,6 +3,7 @@ package net.kuwo1.geodeplus.block;
 
 import net.kuwo1.geodeplus.Geode;
 import net.kuwo1.geodeplus.block.custom.MagicBlock;
+import net.minecraft.core.Direction;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -10,6 +11,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.context.DirectionalPlaceContext;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
@@ -53,8 +56,8 @@ public class ModBlocks {
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block LARGE_CELESTINE_BUD = registerBlock("large_celestine_bud",
-            properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+            properties -> new Block(properties.strength(3f),
+                    new DirectionalPlaceContext(1, 15, 0, Direction.NORTH, 0.1, ).sound(SoundType.AMETHYST)));
    public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));

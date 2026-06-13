@@ -25,7 +25,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CELESTINE);
         blockModelGenerators.createTrivialCube(ModBlocks.SMALL_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.MEDIUM_CELESTINE_BUD);
-        blockModelGenerators.createTrivialCube(ModBlocks.LARGE_CELESTINE_BUD);
+        blockModelGenerators.createAmethystCluster(ModBlocks.LARGE_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_CLUSTER);
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);
