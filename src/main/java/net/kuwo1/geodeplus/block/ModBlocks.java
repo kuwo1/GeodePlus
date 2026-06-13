@@ -36,10 +36,10 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
    public static final Block CELESTINE_BLOCK = registerBlock("celestine_block",
             properties -> new Block(properties.strength(4f)
-                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block CELESTINE_BRICKS = registerBlock("celestine_bricks",
-            properties -> new Block(properties.strength(4f)
-                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block BUDDING_CELESTINE = registerBlock("budding_celestine",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -76,7 +76,10 @@ public class ModBlocks {
    public static final Block SPINEL_BLOCK = registerBlock("spinel_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-   public static final Block SPINEL_BRICKS = registerBlock("spinel_brick",
+   public static final Block SPINEL_BRICKS = registerBlock("spinel_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+   public static final Block BUDDING_SELENITE = registerBlock("budding_selenite",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 

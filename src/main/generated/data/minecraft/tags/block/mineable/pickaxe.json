@@ -17,6 +17,10 @@
     "geode:budding_beryl",
     "geode:small_beryl_bud",
     "geode:beryl_bricks",
-    "geode:amethyst_bricks"
+    "geode:amethyst_bricks",
+    "geode:selenite_bricks",
+    "geode:spinel_block",
+    "geode:spinel_bricks",
+    "geode:budding_selenite"
   ]
 }

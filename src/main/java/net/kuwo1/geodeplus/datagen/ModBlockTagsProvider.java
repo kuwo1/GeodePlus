@@ -33,7 +33,11 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.BUDDING_BERYL)
                 .add(ModBlocks.SMALL_BERYL_BUD)
                 .add(ModBlocks.BERYL_BRICKS)
-                .add(ModBlocks.AMETHYST_BRICKS);
+                .add(ModBlocks.AMETHYST_BRICKS)
+                .add(ModBlocks.SELENITE_BRICKS)
+                .add(ModBlocks.SPINEL_BLOCK)
+                .add(ModBlocks.SPINEL_BRICKS)
+                .add(ModBlocks.BUDDING_SELENITE);
 
     }
 }
