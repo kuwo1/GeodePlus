@@ -108,6 +108,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.SPINEL_BLOCK),has(ModBlocks.SPINEL_BLOCK))
                         .group("calcite")
                         .save(output, "spinel_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.SALT_BLOCK)
+                        .pattern("SS")
+                        .pattern("SS")
+                        .define('S',ModItems.SALTSHARD)
+                        .unlockedBy(getHasName(ModItems.SALTSHARD),has(ModItems.SALTSHARD))
+                        .group("calcite")
+                        .save(output, "salt_block");
+                shaped(RecipeCategory.MISC,ModBlocks.SALT_BRICKS, 4)
+                        .pattern("SS")
+                        .pattern("SS")
+                        .define('S',ModBlocks.SALT_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.SALT_BLOCK),has(ModBlocks.SALT_BLOCK))
+                        .group("calcite")
+                        .save(output, "salt_bricks");
 
 
 

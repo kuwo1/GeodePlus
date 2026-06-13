@@ -37,6 +37,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.SPINEL_BLOCK);
         dropSelf(ModBlocks.SPINEL_BRICKS);
         dropSelf(ModBlocks.BUDDING_SELENITE);
+        dropSelf(ModBlocks.SALT_BLOCK);
+        dropSelf(ModBlocks.SALT_BRICKS);
 
     }
 }

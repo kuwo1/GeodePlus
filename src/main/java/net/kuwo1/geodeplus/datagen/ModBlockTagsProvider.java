@@ -37,7 +37,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.SELENITE_BRICKS)
                 .add(ModBlocks.SPINEL_BLOCK)
                 .add(ModBlocks.SPINEL_BRICKS)
-                .add(ModBlocks.BUDDING_SELENITE);
+                .add(ModBlocks.BUDDING_SELENITE)
+                .add(ModBlocks.SALT_BLOCK)
+                .add(ModBlocks.SALT_BRICKS);
 
     }
 }
