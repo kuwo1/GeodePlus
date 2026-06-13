@@ -26,7 +26,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         return new RecipeProvider(registries, output) {
             @Override
             public void buildRecipes() {
-                List<ItemLike> GEODE_CRAFTED = List.of(ModItems.BASALTCLUMP, ModItems.CALCITECLUMP);
+                List<ItemLike> GEODE_CRAFTED = List.of(ModItems.BASALTCLUMP, ModItems.CALCITECLUMP, ModBlocks.CELESTINE_BLOCK);
 
                 shaped(RecipeCategory.MISC, ModBlocks.BASALT_BRICKS)
                         .pattern("BB")
@@ -52,6 +52,34 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.CALCITECLUMP),has(ModItems.CALCITECLUMP))
                         .group("calcite")
                         .save(output, "geodepack_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.BERYL_BLOCK)
+                        .pattern("BB")
+                        .pattern("BB")
+                        .define('B',ModItems.BERYLSHARD)
+                        .unlockedBy(getHasName(ModItems.BERYLSHARD),has(ModItems.BERYLSHARD))
+                        .group("calcite")
+                        .save(output, "beryl_block");
+                shaped(RecipeCategory.MISC,ModBlocks.CELESTINE_BLOCK)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C',ModItems.CELESTINESHARD)
+                        .unlockedBy(getHasName(ModItems.CELESTINESHARD),has(ModItems.CELESTINESHARD))
+                        .group("calcite")
+                        .save(output, "celestine_block");
+                shaped(RecipeCategory.MISC,ModBlocks.CELESTINE_BRICKS, 4)
+                        .pattern("CC")
+                        .pattern("CC")
+                        .define('C',ModBlocks.CELESTINE_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.CELESTINE_BLOCK),has(ModBlocks.CELESTINE_BLOCK))
+                        .group("calcite")
+                        .save(output, "celestine_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.BERYL_BRICKS, 4)
+                        .pattern("BB")
+                        .pattern("BB")
+                        .define('B',ModBlocks.BERYL_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.BERYL_BLOCK),has(ModBlocks.BERYL_BLOCK))
+                        .group("calcite")
+                        .save(output, "beryl_bricks");
 
 
 
