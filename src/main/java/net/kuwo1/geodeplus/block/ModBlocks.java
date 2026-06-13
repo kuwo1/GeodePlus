@@ -56,8 +56,7 @@ public class ModBlocks {
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block LARGE_CELESTINE_BUD = registerBlock("large_celestine_bud",
-            properties -> new Block(properties.strength(3f),
-                    new DirectionalPlaceContext(1, 15, 0, Direction.NORTH, 0.1, ).sound(SoundType.AMETHYST)));
+            properties -> new Block(properties.strength(3f).sound(SoundType.AMETHYST)));
    public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
