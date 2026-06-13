@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "geode:block/amethyst_bricks",
+    "side": "geode:block/amethyst_bricks",
+    "top": "geode:block/amethyst_bricks"
+  }
+}

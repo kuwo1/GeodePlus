@@ -71,11 +71,15 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.BASALT_BRICK_STAIRS);
                       output.accept(ModBlocks.CALCITE_BRICK_STAIRS);
                       output.accept(ModBlocks.GEODEPACK_BRICK_STAIRS);
+                      output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
+                      output.accept(ModBlocks.AMETHYST_BRICK_STAIRS);
 
 
                       output.accept(ModBlocks.CALCITE_BRICK_SLAB);
                       output.accept(ModBlocks.BASALT_BRICK_SLAB);
                       output.accept(ModBlocks.GEODEPACK_BRICK_SLAB);
+                      output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
+                      output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
 
 
                     }).build());

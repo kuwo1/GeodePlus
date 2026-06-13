@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "geode:block/chocolate_diamond_bricks",
+    "side": "geode:block/chocolate_diamond_bricks",
+    "top": "geode:block/chocolate_diamond_bricks"
+  }
+}

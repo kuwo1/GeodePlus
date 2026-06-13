@@ -31,7 +31,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);
         blockModelGenerators.createTrivialCube(ModBlocks.SMALL_BERYL_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BRICKS);
-        blockModelGenerators.createTrivialCube(ModBlocks.AMETHYST_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.SELENITE_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.SPINEL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.SPINEL_BRICKS);
@@ -41,7 +40,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLINT);
-        blockModelGenerators.createTrivialCube(ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
 
         blockModelGenerators.createTrivialCube(ModBlocks.MAGIC_BLOCK);
@@ -56,6 +54,12 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.family(ModBlocks.GEODEPACK_BRICKS)
                 .stairs(ModBlocks.GEODEPACK_BRICK_STAIRS)
                 .slab(ModBlocks.GEODEPACK_BRICK_SLAB);
+        blockModelGenerators.family(ModBlocks.CHOCOLATE_DIAMOND_BRICKS)
+                .stairs(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS)
+                .slab(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
+        blockModelGenerators.family(ModBlocks.AMETHYST_BRICKS)
+                .stairs(ModBlocks.AMETHYST_BRICK_STAIRS)
+                .slab(ModBlocks.AMETHYST_BRICK_SLAB);
 
 
 

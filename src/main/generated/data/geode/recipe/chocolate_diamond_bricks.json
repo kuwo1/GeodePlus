@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "calcite",
+  "key": {
+    "C": "geode:chocolate_diamond_block"
+  },
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "geode:chocolate_diamond_bricks"
+  }
+}

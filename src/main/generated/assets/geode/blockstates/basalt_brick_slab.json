@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "geode:block/basalt_brick_slab"
+    },
+    "type=double": {
+      "model": "geode:block/basalt_bricks"
+    },
+    "type=top": {
+      "model": "geode:block/basalt_brick_slab_top"
+    }
+  }
+}

@@ -51,10 +51,14 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BASALT_BRICK_STAIRS);
         dropSelf(ModBlocks.CALCITE_BRICK_STAIRS);
         dropSelf(ModBlocks.GEODEPACK_BRICK_STAIRS);
+        dropSelf(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
+        dropSelf(ModBlocks.AMETHYST_BRICK_STAIRS);
 
         add(ModBlocks.BASALT_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.CALCITE_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.GEODEPACK_BRICK_SLAB, this::createSlabItemTable);
+        add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB, this::createSlabItemTable);
+        add(ModBlocks.AMETHYST_BRICK_SLAB, this::createSlabItemTable);
 
     }
 }

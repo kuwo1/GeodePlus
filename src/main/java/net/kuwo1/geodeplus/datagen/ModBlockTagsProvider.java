@@ -55,11 +55,14 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BASALT_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CALCITE_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.GEODEPACK_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.AMETHYST_BRICK_STAIRS);
 
 
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.BASALT_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.CALCITE_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.GEODEPACK_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.AMETHYST_BRICK_SLAB);
 
 
     }

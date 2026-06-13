@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "geode:block/calcite_brick_slab"
+    },
+    "type=double": {
+      "model": "geode:block/calcite_bricks"
+    },
+    "type=top": {
+      "model": "geode:block/calcite_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chocolate_diamond_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "geode:chocolate_diamond_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "geode:chocolate_diamond_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chocolate_diamond_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "geode:chocolate_diamond_block"
+    ]
+  }
+}

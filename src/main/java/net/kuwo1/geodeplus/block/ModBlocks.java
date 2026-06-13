@@ -116,10 +116,16 @@ public class ModBlocks {
     public static final Block BASALT_BRICK_STAIRS = registerBlock("basalt_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block CHOCOLATE_DIAMOND_BRICK_STAIRS = registerBlock("chocolate_diamond_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block CALCITE_BRICK_STAIRS = registerBlock("calcite_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block GEODEPACK_BRICK_STAIRS = registerBlock("geodepack_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
 
@@ -128,6 +134,10 @@ public class ModBlocks {
     public static final Block BASALT_BRICK_SLAB = registerBlock("basalt_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block GEODEPACK_BRICK_SLAB = registerBlock("geodepack_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block CHOCOLATE_DIAMOND_BRICK_SLAB = registerBlock("chocolate_diamond_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
 
