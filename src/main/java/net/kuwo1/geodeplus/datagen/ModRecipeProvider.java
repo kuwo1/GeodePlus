@@ -8,6 +8,8 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import org.apache.commons.codec.language.bm.Rule;
@@ -29,19 +31,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             public void buildRecipes() {
                 List<ItemLike> GEODE_CRAFTED = List.of(ModItems.BASALTCLUMP, ModItems.CALCITECLUMP, ModBlocks.CELESTINE_BLOCK);
 
-                shaped(RecipeCategory.MISC, ModBlocks.BASALT_BRICKS)
+
+                shaped(RecipeCategory.MISC, ModBlocks.BASALT_BRICKS,4)
                         .pattern("BB")
                         .pattern("BB")
-                        .define('B', ModItems.BASALTCLUMP)
-                        .unlockedBy(getHasName(ModItems.BASALTCLUMP), has(ModItems.BASALTCLUMP))
+                        .define('B', Items.BASALT)
+                        .unlockedBy(getHasName(Items.BASALT), has(Items.BASALT))
                         .group("basalt")
                         .save(output);
 
-                shaped(RecipeCategory.MISC,ModBlocks.CALCITE_BRICKS)
+                shaped(RecipeCategory.MISC,ModBlocks.CALCITE_BRICKS, 4)
                         .pattern("CC")
                         .pattern("CC")
-                        .define('C',ModItems.CALCITECLUMP)
-                        .unlockedBy(getHasName(ModItems.CALCITECLUMP),has(ModItems.CALCITECLUMP))
+                        .define('C',Items.CALCITE)
+                        .unlockedBy(getHasName(Items.CALCITE),has(Items.CALCITE))
                         .group("calcite")
                         .save(output);
 
@@ -173,6 +176,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.AMETHYST_BRICKS),has(ModBlocks.AMETHYST_BRICKS))
                         .group("calcite")
                         .save(output);
+                buttonBuilder(ModBlocks.BASALT_BRICK_BUTTON, Ingredient.of(ModItems.BASALTCLUMP))
+                        .unlockedBy(getHasName(ModItems.BASALTCLUMP),has(ModItems.BASALTCLUMP))
+                        .group("calcite")
+                        .save(output);
+                pressurePlate(ModBlocks.BASALT_BRICK_PRESSURE_PLATE, ModItems.BASALTCLUMP);
 
 
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_SLAB, ModBlocks.BASALT_BRICKS);

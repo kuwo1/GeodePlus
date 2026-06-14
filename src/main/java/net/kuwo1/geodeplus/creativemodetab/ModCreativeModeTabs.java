@@ -51,7 +51,6 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.CELESTINE_CLUSTER);
                       output.accept(ModBlocks.BERYL_BLOCK);
                       output.accept(ModBlocks.BUDDING_BERYL);
-                      output.accept(ModBlocks.SMALL_BERYL_BUD);
                       output.accept(ModBlocks.BERYL_BRICKS);
                       output.accept(ModBlocks.AMETHYST_BRICKS);
                       output.accept(ModBlocks.SELENITE_BRICKS);
@@ -80,6 +79,10 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.GEODEPACK_BRICK_SLAB);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
                       output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
+
+                      output.accept(ModBlocks.BASALT_BRICK_BUTTON);
+
+                      output.accept(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
 
 
                     }).build());

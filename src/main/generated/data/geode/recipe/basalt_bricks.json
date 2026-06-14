@@ -3,13 +3,14 @@
   "category": "misc",
   "group": "basalt",
   "key": {
-    "B": "geode:basalt_clump"
+    "B": "minecraft:basalt"
   },
   "pattern": [
     "BB",
     "BB"
   ],
   "result": {
+    "count": 4,
     "id": "geode:basalt_bricks"
   }
 }

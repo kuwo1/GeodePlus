@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_basalt_clump": {
+    "has_basalt": {
       "conditions": {
         "items": [
           {
-            "items": "geode:basalt_clump"
+            "items": "minecraft:basalt"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_basalt_clump"
+      "has_basalt"
     ]
   ],
   "rewards": {

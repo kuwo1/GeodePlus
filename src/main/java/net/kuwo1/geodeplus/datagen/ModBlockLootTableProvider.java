@@ -30,7 +30,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.CELESTINE_CLUSTER);
         dropSelf(ModBlocks.BERYL_BLOCK);
         dropSelf(ModBlocks.BUDDING_BERYL);
-        dropSelf(ModBlocks.SMALL_BERYL_BUD);
         dropSelf(ModBlocks.BERYL_BRICKS);
         dropSelf(ModBlocks.AMETHYST_BRICKS);
         dropSelf(ModBlocks.SELENITE_BRICKS);
@@ -59,6 +58,10 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.GEODEPACK_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.AMETHYST_BRICK_SLAB, this::createSlabItemTable);
+
+        dropSelf(ModBlocks.BASALT_BRICK_BUTTON);
+
+        dropSelf(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
 
     }
 }

@@ -13,11 +13,12 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.context.DirectionalPlaceContext;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 
 import java.util.function.Function;
 
@@ -64,9 +65,6 @@ public class ModBlocks {
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block BUDDING_BERYL = registerBlock("budding_beryl",
-            properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
-   public static final Block SMALL_BERYL_BUD = registerBlock("small_beryl_bud",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block BERYL_BRICKS = registerBlock("beryl_bricks",
@@ -139,6 +137,20 @@ public class ModBlocks {
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+
+    public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
+            properties -> new ButtonBlock(BlockSetType.IRON,20,
+                    properties.strength(3f).noCollision()));
+
+    public static final Block BASALT_BRICK_PRESSURE_PLATE = registerBlock("basalt_brick_pressure_plate",
+            properties -> new PressurePlateBlock(BlockSetType.IRON,
+                    properties
+                            .mapColor(MapColor.STONE)
+                            .forceSolidOn()
+                            .noCollision()
+                            .strength(0.5F)
+                            .pushReaction(PushReaction.DESTROY)));
+
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function){

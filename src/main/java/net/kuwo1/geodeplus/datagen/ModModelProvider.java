@@ -29,7 +29,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_CLUSTER);
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);
-        blockModelGenerators.createTrivialCube(ModBlocks.SMALL_BERYL_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.SELENITE_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.SPINEL_BLOCK);
@@ -47,7 +46,10 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockModelGenerators.family(ModBlocks.BASALT_BRICKS)
                 .stairs(ModBlocks.BASALT_BRICK_STAIRS)
-                .slab(ModBlocks.BASALT_BRICK_SLAB);
+                .slab(ModBlocks.BASALT_BRICK_SLAB)
+                .button(ModBlocks.BASALT_BRICK_BUTTON)
+                .pressurePlate(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
+
         blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)
                 .stairs(ModBlocks.CALCITE_BRICK_STAIRS)
                 .slab(ModBlocks.CALCITE_BRICK_SLAB);

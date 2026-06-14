@@ -32,7 +32,6 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.CELESTINE_CLUSTER)
                 .add(ModBlocks.BERYL_BLOCK)
                 .add(ModBlocks.BUDDING_BERYL)
-                .add(ModBlocks.SMALL_BERYL_BUD)
                 .add(ModBlocks.BERYL_BRICKS)
                 .add(ModBlocks.AMETHYST_BRICKS)
                 .add(ModBlocks.SELENITE_BRICKS)
@@ -63,6 +62,10 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.CALCITE_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.GEODEPACK_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.AMETHYST_BRICK_SLAB);
+
+        valueLookupBuilder(BlockTags.BUTTONS) .add(ModBlocks. BASALT_BRICK_BUTTON);
+
+        valueLookupBuilder(BlockTags.PRESSURE_PLATES) .add(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
 
 
     }
