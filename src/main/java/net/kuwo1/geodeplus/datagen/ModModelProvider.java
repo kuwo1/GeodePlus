@@ -48,11 +48,15 @@ public class ModModelProvider extends FabricModelProvider {
                 .stairs(ModBlocks.BASALT_BRICK_STAIRS)
                 .slab(ModBlocks.BASALT_BRICK_SLAB)
                 .button(ModBlocks.BASALT_BRICK_BUTTON)
-                .pressurePlate(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
+                .pressurePlate(ModBlocks.BASALT_BRICK_PRESSURE_PLATE)
+                .wall(ModBlocks.BASALT_BRICK_WALL);
 
         blockModelGenerators.family(ModBlocks.CALCITE_BRICKS)
                 .stairs(ModBlocks.CALCITE_BRICK_STAIRS)
-                .slab(ModBlocks.CALCITE_BRICK_SLAB);
+                .slab(ModBlocks.CALCITE_BRICK_SLAB)
+                .button(ModBlocks.CALCITE_BRICK_BUTTON)
+                .pressurePlate(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE)
+                .wall(ModBlocks.CALCITE_BRICK_WALL);
         blockModelGenerators.family(ModBlocks.GEODEPACK_BRICKS)
                 .stairs(ModBlocks.GEODEPACK_BRICK_STAIRS)
                 .slab(ModBlocks.GEODEPACK_BRICK_SLAB);

@@ -56,8 +56,13 @@
   "block.geode.amethyst_brick_slab": "Amethyst Brick Slab",
 
   "block.geode.basalt_brick_button": "Basalt Brick Button",
+  "block.geode.calcite_brick_button": "Calcite Brick Button",
 
   "block.geode.basalt_brick_pressure_plate": "Basalt Brick Pressure Plate",
+  "block.geode.calcite_brick_pressure_plate": "Calcite Brick Pressure Plate",
+
+  "block.geode.basalt_brick_wall": "Basalt Brick Wall",
+  "block.geode.calcite_brick_wall": "Calcite Brick Wall",
 
 
 

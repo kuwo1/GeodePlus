@@ -176,11 +176,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.AMETHYST_BRICKS),has(ModBlocks.AMETHYST_BRICKS))
                         .group("calcite")
                         .save(output);
-                buttonBuilder(ModBlocks.BASALT_BRICK_BUTTON, Ingredient.of(ModItems.BASALTCLUMP))
-                        .unlockedBy(getHasName(ModItems.BASALTCLUMP),has(ModItems.BASALTCLUMP))
+                buttonBuilder(ModBlocks.BASALT_BRICK_BUTTON, Ingredient.of(ModBlocks.BASALT_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.BASALT_BRICKS),has(ModBlocks.BASALT_BRICKS))
                         .group("calcite")
                         .save(output);
-                pressurePlate(ModBlocks.BASALT_BRICK_PRESSURE_PLATE, ModItems.BASALTCLUMP);
+            buttonBuilder(ModBlocks.CALCITE_BRICK_BUTTON, Ingredient.of(ModBlocks.CALCITE_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.CALCITE_BRICKS),has(ModBlocks.CALCITE_BRICKS))
+                        .group("calcite")
+                        .save(output);
+
+                pressurePlate(ModBlocks.BASALT_BRICK_PRESSURE_PLATE, ModBlocks.BASALT_BRICKS);
+                pressurePlate(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE, ModBlocks.CALCITE_BRICKS);
+
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_WALL, ModBlocks.BASALT_BRICKS);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_BRICK_WALL, ModBlocks.CALCITE_BRICKS);
 
 
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_SLAB, ModBlocks.BASALT_BRICKS);

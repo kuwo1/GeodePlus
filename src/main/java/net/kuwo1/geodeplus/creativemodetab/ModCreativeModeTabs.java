@@ -81,8 +81,13 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
 
                       output.accept(ModBlocks.BASALT_BRICK_BUTTON);
+                      output.accept(ModBlocks.CALCITE_BRICK_BUTTON);
 
                       output.accept(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
+                      output.accept(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE);
+
+                      output.accept(ModBlocks.BASALT_BRICK_WALL);
+                      output.accept(ModBlocks.CALCITE_BRICK_WALL);
 
 
                     }).build());
