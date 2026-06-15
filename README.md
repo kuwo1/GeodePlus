@@ -1,4 +1,4 @@
-# Geode+
+# Geodes Discovered
 
 ## Setup
 
