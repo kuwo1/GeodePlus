@@ -65,12 +65,15 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         valueLookupBuilder(BlockTags.BUTTONS) .add(ModBlocks. BASALT_BRICK_BUTTON);
         valueLookupBuilder(BlockTags.BUTTONS) .add(ModBlocks. CALCITE_BRICK_BUTTON);
+        valueLookupBuilder(BlockTags.BUTTONS) .add(ModBlocks. GEODEPACK_BRICK_BUTTON);
 
         valueLookupBuilder(BlockTags.PRESSURE_PLATES) .add(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
         valueLookupBuilder(BlockTags.PRESSURE_PLATES) .add(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE);
+        valueLookupBuilder(BlockTags.PRESSURE_PLATES) .add(ModBlocks.GEODEPACK_BRICK_PRESSURE_PLATE);
 
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.BASALT_BRICK_WALL);
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.CALCITE_BRICK_WALL);
+        valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.GEODEPACK_BRICK_WALL);
 
 
     }

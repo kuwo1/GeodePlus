@@ -61,12 +61,15 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
 
         dropSelf(ModBlocks.BASALT_BRICK_BUTTON);
         dropSelf(ModBlocks.CALCITE_BRICK_BUTTON);
+        dropSelf(ModBlocks.GEODEPACK_BRICK_BUTTON);
 
         dropSelf(ModBlocks.BASALT_BRICK_PRESSURE_PLATE);
         dropSelf(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE);
+        dropSelf(ModBlocks.GEODEPACK_BRICK_PRESSURE_PLATE);
 
         dropSelf(ModBlocks.BASALT_BRICK_WALL);
         dropSelf(ModBlocks.CALCITE_BRICK_WALL);
+        dropSelf(ModBlocks.GEODEPACK_BRICK_WALL);
 
     }
 }

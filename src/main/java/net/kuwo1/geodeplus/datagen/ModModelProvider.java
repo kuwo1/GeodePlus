@@ -59,7 +59,10 @@ public class ModModelProvider extends FabricModelProvider {
                 .wall(ModBlocks.CALCITE_BRICK_WALL);
         blockModelGenerators.family(ModBlocks.GEODEPACK_BRICKS)
                 .stairs(ModBlocks.GEODEPACK_BRICK_STAIRS)
-                .slab(ModBlocks.GEODEPACK_BRICK_SLAB);
+                .slab(ModBlocks.GEODEPACK_BRICK_SLAB)
+                .button(ModBlocks.GEODEPACK_BRICK_BUTTON)
+                .pressurePlate(ModBlocks.GEODEPACK_BRICK_PRESSURE_PLATE)
+                .wall(ModBlocks.GEODEPACK_BRICK_WALL);
         blockModelGenerators.family(ModBlocks.CHOCOLATE_DIAMOND_BRICKS)
                 .stairs(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS)
                 .slab(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
