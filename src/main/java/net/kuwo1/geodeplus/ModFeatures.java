@@ -1,4 +1,4 @@
-package net.kuwo1.geodeplus.world.feature;
+package net.kuwo1.geodesdiscovered;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
