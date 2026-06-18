@@ -48,6 +48,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.CALCITE_BRICK_STAIRS)
                 .add(ModBlocks.CHOCOLATE_DIAMOND_BLOCK)
                 .add(ModBlocks.CHOCOLATE_DIAMOND_BRICKS)
+                .add(ModBlocks.BUDDING_CHOCOLATE_DIAMOND)
 
                 .add(ModBlocks.MAGIC_BLOCK);
 

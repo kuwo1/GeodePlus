@@ -40,6 +40,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.FLINT_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLINT);
         blockModelGenerators.createTrivialCube(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CHOCOLATE_DIAMOND);
 
         blockModelGenerators.createTrivialCube(ModBlocks.MAGIC_BLOCK);
 

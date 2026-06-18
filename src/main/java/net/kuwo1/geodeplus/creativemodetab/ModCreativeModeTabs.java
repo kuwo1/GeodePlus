@@ -64,6 +64,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.BUDDING_FLINT);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
+                      output.accept(ModBlocks.BUDDING_CHOCOLATE_DIAMOND);
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 

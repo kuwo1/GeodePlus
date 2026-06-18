@@ -106,6 +106,9 @@ public class ModBlocks {
     public static final Block CHOCOLATE_DIAMOND_BRICKS = registerBlock("chocolate_diamond_bricks",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block BUDDING_CHOCOLATE_DIAMOND = registerBlock("budding_chocolate_diamond",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             properties -> new MagicBlock(properties.strength(2f)
