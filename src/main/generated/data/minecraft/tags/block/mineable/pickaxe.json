@@ -35,6 +35,8 @@
     "geode:fluorite_block",
     "geode:fluorite_bricks",
     "geode:budding_fluorite",
+    "geode:budding_salt",
+    "geode:budding_spinel",
     "geode:magic_block"
   ]
 }

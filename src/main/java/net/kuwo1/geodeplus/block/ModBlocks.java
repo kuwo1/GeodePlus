@@ -118,6 +118,12 @@ public class ModBlocks {
     public static final Block BUDDING_FLUORITE = registerBlock("budding_fluorite",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block BUDDING_SALT = registerBlock("budding_salt",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block BUDDING_SPINEL = registerBlock("budding_spinel",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             properties -> new MagicBlock(properties.strength(2f)

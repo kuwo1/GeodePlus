@@ -25,6 +25,9 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> CHOCOLATE_DIAMOND_GEODE = createKey("chocolate_diamond_geode");
     public static final ResourceKey<PlacedFeature> FLINT_GEODE = createKey("flint_geode");
     public static final ResourceKey<PlacedFeature> FLUORITE_GEODE = createKey("fluorite_geode");
+    public static final ResourceKey<PlacedFeature> BERYL_GEODE = createKey("beryl_geode");
+    public static final ResourceKey<PlacedFeature> SALT_GEODE = createKey("salt_geode");
+    public static final ResourceKey<PlacedFeature> SPINEL_GEODE = createKey("spinel_geode");
 
     public static void bootstrap(final BootstrapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -37,6 +40,12 @@ public class ModPlacedFeatures {
         Holder<ConfiguredFeature<?, ?>> flintGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.FLINT_GEODE);
 
         Holder<ConfiguredFeature<?, ?>> fluoriteGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.FLUORITE_GEODE);
+
+        Holder<ConfiguredFeature<?, ?>> berylGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.BERYL_GEODE);
+
+        Holder<ConfiguredFeature<?, ?>> saltGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.SALT_GEODE);
+
+        Holder<ConfiguredFeature<?, ?>> spinelGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.SPINEL_GEODE);
 
         register(context, SELENITE_GEODE, seleniteGeode, RarityFilter.onAverageOnceEvery(24),
                 InSquarePlacement.spread(),
@@ -55,6 +64,18 @@ public class ModPlacedFeatures {
                 HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
                         VerticalAnchor.absolute(30)), BiomeFilter.biome());
         register(context, FLUORITE_GEODE, fluoriteGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, BERYL_GEODE, berylGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, SALT_GEODE, saltGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, SPINEL_GEODE, spinelGeode, RarityFilter.onAverageOnceEvery(24),
                 InSquarePlacement.spread(),
                 HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
                         VerticalAnchor.absolute(30)), BiomeFilter.biome());

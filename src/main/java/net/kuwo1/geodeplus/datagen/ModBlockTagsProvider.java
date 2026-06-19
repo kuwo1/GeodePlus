@@ -52,6 +52,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.FLUORITE_BLOCK)
                 .add(ModBlocks.FLUORITE_BRICKS)
                 .add(ModBlocks.BUDDING_FLUORITE)
+                .add(ModBlocks.BUDDING_SALT)
+                .add(ModBlocks.BUDDING_SPINEL)
 
                 .add(ModBlocks.MAGIC_BLOCK);
 

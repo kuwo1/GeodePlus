@@ -43,6 +43,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CHOCOLATE_DIAMOND);
         blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLUORITE);
+        blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_SALT);
+        blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_SPINEL);
 
         blockModelGenerators.createTrivialCube(ModBlocks.MAGIC_BLOCK);
 

@@ -32,6 +32,9 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> CHOCOLATE_DIAMOND_GEODE = registerKey("chocolate_diamond_geode");
     public static final ResourceKey<ConfiguredFeature<?, ?>> FLINT_GEODE = registerKey("flint_geode");
     public static final ResourceKey<ConfiguredFeature<?, ?>> FLUORITE_GEODE = registerKey("fluorite_geode");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> BERYL_GEODE = registerKey("beryl_geode");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SALT_GEODE = registerKey("salt_geode");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SPINEL_GEODE = registerKey("spinel_geode");
 
     public static void bootstrap(final BootstrapContext<ConfiguredFeature<?, ?>> context) {
         register(context, SELENITE_GEODE, Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
@@ -97,6 +100,51 @@ public class ModConfiguredFeatures {
         register(context, FLUORITE_GEODE, Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
                 BlockStateProvider.simple(ModBlocks.FLUORITE_BLOCK),
                 BlockStateProvider.simple(ModBlocks.BUDDING_FLUORITE),
+                BlockStateProvider.simple(Blocks.CALCITE),
+                BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
+                List.of(Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.AMETHYST_CLUSTER.defaultBlockState()),
+                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
+                new GeodeCrackSettings(0.95, (double)2.0F, 2),
+                0.35, 0.083, true,
+                UniformInt.of(4, 6), UniformInt.of(3, 4), UniformInt.of(1, 2), -16, 16, 0.05, 1));
+
+        register(context, BERYL_GEODE, Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
+                BlockStateProvider.simple(ModBlocks.BERYL_BLOCK),
+                BlockStateProvider.simple(ModBlocks.BUDDING_BERYL),
+                BlockStateProvider.simple(Blocks.CALCITE),
+                BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
+                List.of(Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.AMETHYST_CLUSTER.defaultBlockState()),
+                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
+                new GeodeCrackSettings(0.95, (double)2.0F, 2),
+                0.35, 0.083, true,
+                UniformInt.of(4, 6), UniformInt.of(3, 4), UniformInt.of(1, 2), -16, 16, 0.05, 1));
+
+        register(context, SALT_GEODE, Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
+                BlockStateProvider.simple(ModBlocks.SALT_BLOCK),
+                BlockStateProvider.simple(ModBlocks.BUDDING_SALT),
+                BlockStateProvider.simple(Blocks.CALCITE),
+                BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
+                List.of(Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
+                        Blocks.AMETHYST_CLUSTER.defaultBlockState()),
+                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
+                new GeodeCrackSettings(0.95, (double)2.0F, 2),
+                0.35, 0.083, true,
+                UniformInt.of(4, 6), UniformInt.of(3, 4), UniformInt.of(1, 2), -16, 16, 0.05, 1));
+
+        register(context, SPINEL_GEODE, Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
+                BlockStateProvider.simple(ModBlocks.SPINEL_BLOCK),
+                BlockStateProvider.simple(ModBlocks.BUDDING_SPINEL),
                 BlockStateProvider.simple(Blocks.CALCITE),
                 BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
                 List.of(Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),

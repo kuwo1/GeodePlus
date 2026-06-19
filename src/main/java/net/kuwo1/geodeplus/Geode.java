@@ -38,6 +38,15 @@ public class Geode implements ModInitializer {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Decoration.LOCAL_MODIFICATIONS,
                 ModPlacedFeatures.FLUORITE_GEODE);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Decoration.LOCAL_MODIFICATIONS,
+                ModPlacedFeatures.BERYL_GEODE);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Decoration.LOCAL_MODIFICATIONS,
+                ModPlacedFeatures.SALT_GEODE);
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Decoration.LOCAL_MODIFICATIONS,
+                ModPlacedFeatures.SPINEL_GEODE);
 
 
 
