@@ -7,6 +7,7 @@ import net.kuwo1.geodeplus.block.ModBlocks;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.world.level.block.Block;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricPackOutput output) {
@@ -23,7 +24,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CELESTINE);
-        blockModelGenerators.createTrivialCube(ModBlocks.SMALL_CELESTINE_BUD);
+
+        registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_CELESTINE_BUD);
+
         blockModelGenerators.createTrivialCube(ModBlocks.MEDIUM_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.LARGE_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_CLUSTER);
@@ -83,6 +86,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     }
 
+    private void registerAmethystCross(BlockModelGenerators blockModelGenerators, Block smallCelestineBud) {
+    }
+
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
     itemModelGenerators.generateFlatItem(ModItems.BASALTCLUMP, ModelTemplates.FLAT_ITEM);
@@ -96,4 +102,5 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerators.generateFlatItem(ModItems.SELENITESHARD, ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(ModItems.FLINTSHARD, ModelTemplates.FLAT_ITEM);
     }
+
 }

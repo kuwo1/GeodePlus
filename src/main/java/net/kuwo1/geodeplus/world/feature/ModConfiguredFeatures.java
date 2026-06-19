@@ -132,7 +132,7 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.simple(ModBlocks.BUDDING_SALT),
                 BlockStateProvider.simple(Blocks.CALCITE),
                 BlockStateProvider.simple(Blocks.SMOOTH_BASALT),
-                List.of(Blocks.SMALL_AMETHYST_BUD.defaultBlockState(),
+                List.of(ModBlocks.SMALL_CELESTINE_BUD.defaultBlockState(),
                         Blocks.MEDIUM_AMETHYST_BUD.defaultBlockState(),
                         Blocks.LARGE_AMETHYST_BUD.defaultBlockState(),
                         Blocks.AMETHYST_CLUSTER.defaultBlockState()),
