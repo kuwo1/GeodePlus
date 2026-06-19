@@ -65,6 +65,9 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
                       output.accept(ModBlocks.BUDDING_CHOCOLATE_DIAMOND);
+                      output.accept(ModBlocks.FLUORITE_BLOCK);
+                      output.accept(ModBlocks.FLUORITE_BRICKS);
+                      output.accept(ModBlocks.BUDDING_FLUORITE);
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 
@@ -73,6 +76,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.GEODEPACK_BRICK_STAIRS);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
                       output.accept(ModBlocks.AMETHYST_BRICK_STAIRS);
+                      output.accept(ModBlocks.FLUORITE_BRICK_STAIRS);
 
 
                       output.accept(ModBlocks.CALCITE_BRICK_SLAB);
@@ -80,6 +84,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.GEODEPACK_BRICK_SLAB);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
                       output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
+                      output.accept(ModBlocks.FLUORITE_BRICK_SLAB);
 
                       output.accept(ModBlocks.BASALT_BRICK_BUTTON);
                       output.accept(ModBlocks.CALCITE_BRICK_BUTTON);

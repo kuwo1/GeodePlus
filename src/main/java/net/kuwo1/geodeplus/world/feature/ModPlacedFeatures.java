@@ -16,17 +16,38 @@ import net.minecraft.world.level.levelgen.placement.*;
 
 import java.util.List;
 
-import static net.kuwo1.geodeplus.world.feature.ModConfiguredFeatures.BASALT_GEODE;
+import static net.kuwo1.geodeplus.world.feature.ModConfiguredFeatures.*;
 
 
 public class ModPlacedFeatures {
-    public static final ResourceKey<PlacedFeature> BASALT_GEODE = createKey("basalt_geode");
+    public static final ResourceKey<PlacedFeature> SELENITE_GEODE = createKey("selenite_geode");
+    public static final ResourceKey<PlacedFeature> CELESTINE_GEODE = createKey("celestine_geode");
+    public static final ResourceKey<PlacedFeature> CHOCOLATE_DIAMOND_GEODE = createKey("chocolate_diamond_geode");
+    public static final ResourceKey<PlacedFeature> FLINT_GEODE = createKey("flint_geode");
 
     public static void bootstrap(final BootstrapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
-        Holder<ConfiguredFeature<?, ?>> basaltGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.BASALT_GEODE);
+        Holder<ConfiguredFeature<?, ?>> seleniteGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.SELENITE_GEODE);
 
-        register(context, BASALT_GEODE, basaltGeode, RarityFilter.onAverageOnceEvery(24),
+        Holder<ConfiguredFeature<?, ?>> celestineGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.CELESTINE_GEODE);
+
+        Holder<ConfiguredFeature<?, ?>> chocolatediamondGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.CHOCOLATE_DIAMOND_GEODE);
+
+        Holder<ConfiguredFeature<?, ?>> flintGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.FLINT_GEODE);
+
+        register(context, SELENITE_GEODE, seleniteGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, CELESTINE_GEODE, celestineGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, CHOCOLATE_DIAMOND_GEODE, chocolatediamondGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, FLINT_GEODE, flintGeode, RarityFilter.onAverageOnceEvery(24),
                 InSquarePlacement.spread(),
                 HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
                         VerticalAnchor.absolute(30)), BiomeFilter.biome());

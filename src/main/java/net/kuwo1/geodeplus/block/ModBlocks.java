@@ -109,6 +109,15 @@ public class ModBlocks {
     public static final Block BUDDING_CHOCOLATE_DIAMOND = registerBlock("budding_chocolate_diamond",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block FLUORITE_BRICKS = registerBlock("fluorite_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block BUDDING_FLUORITE = registerBlock("budding_fluorite",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             properties -> new MagicBlock(properties.strength(2f)
@@ -129,6 +138,9 @@ public class ModBlocks {
     public static final Block AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block FLUORITE_BRICK_STAIRS = registerBlock("fluorite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
@@ -139,6 +151,8 @@ public class ModBlocks {
     public static final Block CHOCOLATE_DIAMOND_BRICK_SLAB = registerBlock("chocolate_diamond_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block FLUORITE_BRICK_SLAB = registerBlock("fluorite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",

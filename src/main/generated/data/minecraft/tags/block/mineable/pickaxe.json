@@ -32,6 +32,9 @@
     "geode:chocolate_diamond_block",
     "geode:chocolate_diamond_bricks",
     "geode:budding_chocolate_diamond",
+    "geode:fluorite_block",
+    "geode:fluorite_bricks",
+    "geode:budding_fluorite",
     "geode:magic_block"
   ]
 }

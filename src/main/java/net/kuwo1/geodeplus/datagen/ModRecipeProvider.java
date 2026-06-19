@@ -159,6 +159,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('F',ModItems.FLINTSHARD)
                         .unlockedBy(getHasName(ModItems.FLINTSHARD),has(ModItems.FLINTSHARD))
                         .group("calcite");
+                shaped(RecipeCategory.MISC,ModBlocks.FLUORITE_BRICKS, 4)
+                        .pattern("FF")
+                        .pattern("FF")
+                        .define('F',ModBlocks.FLUORITE_BLOCK)
+                        .unlockedBy(getHasName(ModBlocks.FLUORITE_BLOCK),has(ModBlocks.FLUORITE_BLOCK))
+                        .group("calcite");
 
 
                 stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.BASALT_BRICKS))
@@ -181,6 +187,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.AMETHYST_BRICKS),has(ModBlocks.AMETHYST_BRICKS))
                         .group("calcite")
                         .save(output);
+                stairBuilder(ModBlocks.FLUORITE_BRICK_STAIRS, Ingredient.of(ModBlocks.FLUORITE_BRICK_STAIRS))
+                        .unlockedBy(getHasName(ModBlocks.FLUORITE_BRICKS),has(ModBlocks.FLUORITE_BRICKS))
+                        .group("calcite")
+                        .save(output);
+
                 buttonBuilder(ModBlocks.BASALT_BRICK_BUTTON, Ingredient.of(ModBlocks.BASALT_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.BASALT_BRICKS),has(ModBlocks.BASALT_BRICKS))
                         .group("calcite")
@@ -208,6 +219,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEODEPACK_BRICK_SLAB, ModBlocks.GEODEPACK_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB, ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_BRICK_SLAB, ModBlocks.AMETHYST_BRICKS);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_BRICK_SLAB, ModBlocks.FLUORITE_BRICKS);
 
 
 

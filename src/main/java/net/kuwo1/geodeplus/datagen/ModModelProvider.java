@@ -41,6 +41,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLINT);
         blockModelGenerators.createTrivialCube(ModBlocks.CHOCOLATE_DIAMOND_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CHOCOLATE_DIAMOND);
+        blockModelGenerators.createTrivialCube(ModBlocks.FLUORITE_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_FLUORITE);
 
         blockModelGenerators.createTrivialCube(ModBlocks.MAGIC_BLOCK);
 
@@ -70,6 +72,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.family(ModBlocks.AMETHYST_BRICKS)
                 .stairs(ModBlocks.AMETHYST_BRICK_STAIRS)
                 .slab(ModBlocks.AMETHYST_BRICK_SLAB);
+        blockModelGenerators.family(ModBlocks.FLUORITE_BRICKS)
+                .stairs(ModBlocks.FLUORITE_BRICK_STAIRS)
+                .slab(ModBlocks.FLUORITE_BRICK_SLAB);
 
 
 
