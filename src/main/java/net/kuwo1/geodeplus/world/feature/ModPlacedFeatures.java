@@ -24,6 +24,7 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> CELESTINE_GEODE = createKey("celestine_geode");
     public static final ResourceKey<PlacedFeature> CHOCOLATE_DIAMOND_GEODE = createKey("chocolate_diamond_geode");
     public static final ResourceKey<PlacedFeature> FLINT_GEODE = createKey("flint_geode");
+    public static final ResourceKey<PlacedFeature> FLUORITE_GEODE = createKey("fluorite_geode");
 
     public static void bootstrap(final BootstrapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
@@ -34,6 +35,8 @@ public class ModPlacedFeatures {
         Holder<ConfiguredFeature<?, ?>> chocolatediamondGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.CHOCOLATE_DIAMOND_GEODE);
 
         Holder<ConfiguredFeature<?, ?>> flintGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.FLINT_GEODE);
+
+        Holder<ConfiguredFeature<?, ?>> fluoriteGeode = configuredFeatures.getOrThrow(ModConfiguredFeatures.FLUORITE_GEODE);
 
         register(context, SELENITE_GEODE, seleniteGeode, RarityFilter.onAverageOnceEvery(24),
                 InSquarePlacement.spread(),
@@ -48,6 +51,10 @@ public class ModPlacedFeatures {
                 HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
                         VerticalAnchor.absolute(30)), BiomeFilter.biome());
         register(context, FLINT_GEODE, flintGeode, RarityFilter.onAverageOnceEvery(24),
+                InSquarePlacement.spread(),
+                HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
+                        VerticalAnchor.absolute(30)), BiomeFilter.biome());
+        register(context, FLUORITE_GEODE, fluoriteGeode, RarityFilter.onAverageOnceEvery(24),
                 InSquarePlacement.spread(),
                 HeightRangePlacement.uniform(VerticalAnchor.aboveBottom(6),
                         VerticalAnchor.absolute(30)), BiomeFilter.biome());
