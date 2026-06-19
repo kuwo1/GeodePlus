@@ -3,7 +3,7 @@
   "category": "misc",
   "group": "basalt",
   "key": {
-    "B": "minecraft:basalt"
+    "B": "minecraft:smooth_basalt"
   },
   "pattern": [
     "BB",

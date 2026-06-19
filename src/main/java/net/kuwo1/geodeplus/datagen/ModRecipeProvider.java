@@ -35,8 +35,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 shaped(RecipeCategory.MISC, ModBlocks.BASALT_BRICKS,4)
                         .pattern("BB")
                         .pattern("BB")
-                        .define('B', Items.BASALT)
-                        .unlockedBy(getHasName(Items.BASALT), has(Items.BASALT))
+                        .define('B', Items.SMOOTH_BASALT)
+                        .unlockedBy(getHasName(Items.SMOOTH_BASALT), has(Items.SMOOTH_BASALT))
                         .group("basalt")
                         .save(output);
 
