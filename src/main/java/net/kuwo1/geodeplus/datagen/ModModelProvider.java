@@ -26,8 +26,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CELESTINE);
 
         registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_CELESTINE_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_CELESTINE_BUD);
 
-        blockModelGenerators.createTrivialCube(ModBlocks.MEDIUM_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.LARGE_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_CLUSTER);
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
@@ -87,6 +87,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     private void registerAmethystCross(BlockModelGenerators blockModelGenerators, Block smallCelestineBud) {
+
     }
 
     @Override
