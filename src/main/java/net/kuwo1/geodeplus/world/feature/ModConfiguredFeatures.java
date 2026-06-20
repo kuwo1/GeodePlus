@@ -105,7 +105,7 @@ public class ModConfiguredFeatures {
                 List.of(ModBlocks.SMALL_FLUORITE_BUD.defaultBlockState(),
                         ModBlocks.MEDIUM_FLUORITE_BUD.defaultBlockState(),
                         ModBlocks.LARGE_FLUORITE_BUD.defaultBlockState(),
-                        Blocks.AMETHYST_CLUSTER.defaultBlockState()),
+                        ModBlocks.FLUORITE_CLUSTER.defaultBlockState()),
                 BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),

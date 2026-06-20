@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cross",
   "render_type": "minecraft:cutout",
   "textures": {
-    "cross": "geode:block/celestine_cluster"
+    "cross": "geode:block/fluorite_cluster"
   }
 }
