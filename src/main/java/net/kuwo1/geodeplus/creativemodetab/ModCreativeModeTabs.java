@@ -41,7 +41,6 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.GEODEPACK_BRICKS);
                       output.accept(ModBlocks.GEODEPACK_BLOCK);
                       output.accept(ModBlocks.SELENITE_BLOCK);
-                      output.accept(ModBlocks.GEODEPACK);
                       output.accept(ModBlocks.CELESTINE_BLOCK);
                       output.accept(ModBlocks.CELESTINE_BRICKS);
                       output.accept(ModBlocks.BUDDING_CELESTINE);
@@ -78,6 +77,18 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.MEDIUM_SALT_BUD);
                       output.accept(ModBlocks.LARGE_SALT_BUD);
                       output.accept(ModBlocks.SALT_CLUSTER);
+                      output.accept(ModBlocks.SMALL_SELENITE_BUD);
+                      output.accept(ModBlocks.MEDIUM_SELENITE_BUD);
+                      output.accept(ModBlocks.LARGE_SELENITE_BUD);
+                      output.accept(ModBlocks.SELENITE_CLUSTER);
+                      output.accept(ModBlocks.SMALL_SPINEL_BUD);
+                      output.accept(ModBlocks.MEDIUM_SPINEL_BUD);
+                      output.accept(ModBlocks.LARGE_SPINEL_BUD);
+                      output.accept(ModBlocks.SPINEL_CLUSTER);
+                      output.accept(ModBlocks.SMALL_FLINT_BUD);
+                      output.accept(ModBlocks.MEDIUM_FLINT_BUD);
+                      output.accept(ModBlocks.LARGE_FLINT_BUD);
+                      output.accept(ModBlocks.FLINT_CLUSTER);
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 

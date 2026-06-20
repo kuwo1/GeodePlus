@@ -2,6 +2,7 @@ package net.kuwo1.geodeplus.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
+import net.kuwo1.geodeplus.Item.ModItems;
 import net.kuwo1.geodeplus.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 
@@ -22,12 +23,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BASALT_BRICKS);
         dropSelf(ModBlocks.CELESTINE_BLOCK);
         dropSelf(ModBlocks.BUDDING_CELESTINE);
-        dropSelf(ModBlocks.GEODEPACK);
         dropSelf(ModBlocks.CELESTINE_BRICKS);
-        dropSelf(ModBlocks.SMALL_CELESTINE_BUD);
-        dropSelf(ModBlocks.MEDIUM_CELESTINE_BUD);
-        dropSelf(ModBlocks.LARGE_CELESTINE_BUD);
-        dropSelf(ModBlocks.CELESTINE_CLUSTER);
         dropSelf(ModBlocks.BERYL_BLOCK);
         dropSelf(ModBlocks.BUDDING_BERYL);
         dropSelf(ModBlocks.BERYL_BRICKS);
@@ -49,6 +45,31 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BUDDING_FLUORITE);
         dropSelf(ModBlocks.BUDDING_SALT);
         dropSelf(ModBlocks.BUDDING_SPINEL);
+
+        dropOther(ModBlocks.SMALL_CELESTINE_BUD, ModItems.CELESTINESHARD);
+        dropOther(ModBlocks.MEDIUM_CELESTINE_BUD, ModItems.CELESTINESHARD);
+        dropOther(ModBlocks.LARGE_CELESTINE_BUD, ModItems.CELESTINESHARD);
+        dropOther(ModBlocks.CELESTINE_CLUSTER, ModItems.CELESTINESHARD);
+        dropOther(ModBlocks.SMALL_SALT_BUD, ModItems.SALTSHARD);
+        dropOther(ModBlocks.MEDIUM_SALT_BUD, ModItems.SALTSHARD);
+        dropOther(ModBlocks.LARGE_SALT_BUD, ModItems.SALTSHARD);
+        dropOther(ModBlocks.SALT_CLUSTER, ModItems.SALTSHARD);
+        dropOther(ModBlocks.SMALL_FLUORITE_BUD, ModItems.FLUORITESHARD);
+        dropOther(ModBlocks.MEDIUM_FLUORITE_BUD, ModItems.FLUORITESHARD);
+        dropOther(ModBlocks.LARGE_FLUORITE_BUD, ModItems.FLUORITESHARD);
+        dropOther(ModBlocks.FLUORITE_CLUSTER, ModItems.FLUORITESHARD);
+        dropOther(ModBlocks.SELENITE_CLUSTER, ModItems.SELENITESHARD);
+        dropOther(ModBlocks.SMALL_SELENITE_BUD, ModItems.SELENITESHARD);
+        dropOther(ModBlocks.MEDIUM_SELENITE_BUD, ModItems.SELENITESHARD);
+        dropOther(ModBlocks.LARGE_SELENITE_BUD, ModItems.SELENITESHARD);
+        dropOther(ModBlocks.SMALL_SPINEL_BUD, ModItems.SPINELSHARD);
+        dropOther(ModBlocks.MEDIUM_SPINEL_BUD, ModItems.SPINELSHARD);
+        dropOther(ModBlocks.LARGE_SPINEL_BUD, ModItems.SPINELSHARD);
+        dropOther(ModBlocks.SPINEL_CLUSTER, ModItems.SPINELSHARD);
+        dropOther(ModBlocks.SMALL_FLINT_BUD, ModItems.FLINTSHARD);
+        dropOther(ModBlocks.MEDIUM_FLINT_BUD, ModItems.FLINTSHARD);
+        dropOther(ModBlocks.LARGE_FLINT_BUD, ModItems.FLINTSHARD);
+        dropOther(ModBlocks.FLINT_CLUSTER, ModItems.FLINTSHARD);
 
         dropSelf(ModBlocks.MAGIC_BLOCK);
 

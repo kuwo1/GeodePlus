@@ -45,6 +45,18 @@
     "geode:medium_salt_bud",
     "geode:large_salt_bud",
     "geode:salt_cluster",
+    "geode:small_selenite_bud",
+    "geode:medium_selenite_bud",
+    "geode:large_selenite_bud",
+    "geode:selenite_cluster",
+    "geode:small_spinel_bud",
+    "geode:medium_spinel_bud",
+    "geode:large_spinel_bud",
+    "geode:spinel_cluster",
+    "geode:small_flint_bud",
+    "geode:medium_flint_bud",
+    "geode:large_flint_bud",
+    "geode:flint_cluster",
     "geode:magic_block"
   ]
 }

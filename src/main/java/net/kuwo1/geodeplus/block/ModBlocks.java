@@ -147,6 +147,102 @@ public class ModBlocks {
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
+   public static final Block SMALL_SELENITE_BUD = registerBlock("small_selenite_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block MEDIUM_SELENITE_BUD = registerBlock("medium_selenite_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block LARGE_SELENITE_BUD = registerBlock("large_selenite_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block SELENITE_CLUSTER = registerBlock("selenite_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block SMALL_SPINEL_BUD = registerBlock("small_spinel_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block MEDIUM_SPINEL_BUD = registerBlock("medium_spinel_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block LARGE_SPINEL_BUD = registerBlock("large_spinel_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block SPINEL_CLUSTER = registerBlock("spinel_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block SMALL_FLINT_BUD = registerBlock("small_flint_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block MEDIUM_FLINT_BUD = registerBlock("medium_flint_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block LARGE_FLINT_BUD = registerBlock("large_flint_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block FLINT_CLUSTER = registerBlock("flint_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
 
 
 
@@ -189,7 +285,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final Block BUDDING_FLINT = registerBlock("budding_flint",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final Block CHOCOLATE_DIAMOND_BLOCK = registerBlock("chocolate_diamond_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -221,7 +317,7 @@ public class ModBlocks {
 
     public static final Block BASALT_BRICK_STAIRS = registerBlock("basalt_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
-                    properties.strength(4f).requiresCorrectToolForDrops()));
+                    properties.strength(4f).sound(SoundType.BASALT).requiresCorrectToolForDrops()));
     public static final Block CHOCOLATE_DIAMOND_BRICK_STAIRS = registerBlock("chocolate_diamond_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
@@ -241,7 +337,7 @@ public class ModBlocks {
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block BASALT_BRICK_SLAB = registerBlock("basalt_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(4f).sound(SoundType.BASALT).requiresCorrectToolForDrops()));
     public static final Block GEODEPACK_BRICK_SLAB = registerBlock("geodepack_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block CHOCOLATE_DIAMOND_BRICK_SLAB = registerBlock("chocolate_diamond_brick_slab",
@@ -253,7 +349,7 @@ public class ModBlocks {
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,
-                    properties.strength(3f).noCollision()));
+                    properties.strength(3f).sound(SoundType.BASALT).noCollision()));
     public static final Block CALCITE_BRICK_BUTTON = registerBlock("calcite_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,
                     properties.strength(3f).noCollision()));
@@ -268,6 +364,7 @@ public class ModBlocks {
                             .forceSolidOn()
                             .noCollision()
                             .strength(0.5F)
+                            .sound(SoundType.BASALT)
                             .pushReaction(PushReaction.DESTROY)));
     public static final Block CALCITE_BRICK_PRESSURE_PLATE = registerBlock("calcite_brick_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.IRON,
@@ -287,7 +384,7 @@ public class ModBlocks {
                             .pushReaction(PushReaction.DESTROY)));
 
     public static final Block BASALT_BRICK_WALL = registerBlock("basalt_brick_wall",
-            properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new WallBlock(properties.strength(4f).sound(SoundType.BASALT).requiresCorrectToolForDrops()));
     public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block GEODEPACK_BRICK_WALL = registerBlock("geodepack_brick_wall",

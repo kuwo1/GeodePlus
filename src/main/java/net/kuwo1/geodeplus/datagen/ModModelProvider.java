@@ -20,7 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockModelGenerators.createTrivialCube(ModBlocks.GEODEPACK_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.SELENITE_BLOCK);
-        blockModelGenerators.createTrivialCube(ModBlocks.GEODEPACK);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CELESTINE);
@@ -37,6 +36,19 @@ public class ModModelProvider extends FabricModelProvider {
         registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_SALT_BUD);
         registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_SALT_BUD);
         registerAmethystCross(blockModelGenerators, ModBlocks.SALT_CLUSTER);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_SELENITE_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_SELENITE_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_SELENITE_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SELENITE_CLUSTER);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_SELENITE_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_SPINEL_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_SPINEL_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SPINEL_CLUSTER);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_FLINT_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_FLINT_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_FLINT_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.FLINT_CLUSTER);
+
 
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);

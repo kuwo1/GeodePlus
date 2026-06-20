@@ -56,6 +56,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.CALCITECLUMP),has(ModItems.CALCITECLUMP))
                         .group("calcite")
                         .save(output, "geodepack_bricks");
+
                 shaped(RecipeCategory.MISC,ModBlocks.BERYL_BLOCK)
                         .pattern("BB")
                         .pattern("BB")
@@ -165,6 +166,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('F',ModBlocks.FLUORITE_BLOCK)
                         .unlockedBy(getHasName(ModBlocks.FLUORITE_BLOCK),has(ModBlocks.FLUORITE_BLOCK))
                         .group("calcite");
+                shaped(RecipeCategory.MISC,ModBlocks.FLUORITE_BLOCK)
+                        .pattern("FF")
+                        .pattern("FF")
+                        .define('F',ModItems.FLUORITESHARD)
+                        .unlockedBy(getHasName(ModItems.FLUORITESHARD),has(ModItems.FLUORITESHARD))
+                        .group("calcite")
+                        .save(output, "fluorite_block");
 
 
                 stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.BASALT_BRICKS))

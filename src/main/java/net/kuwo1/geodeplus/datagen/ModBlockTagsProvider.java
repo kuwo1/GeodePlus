@@ -24,7 +24,6 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.GEODEPACK_BLOCK)
                 .add(ModBlocks.CELESTINE_BLOCK)
                 .add(ModBlocks.CELESTINE_BRICKS)
-                .add(ModBlocks.GEODEPACK)
                 .add(ModBlocks.BUDDING_CELESTINE)
                 .add(ModBlocks.SMALL_CELESTINE_BUD)
                 .add(ModBlocks.MEDIUM_CELESTINE_BUD)
@@ -62,6 +61,18 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.MEDIUM_SALT_BUD)
                 .add(ModBlocks.LARGE_SALT_BUD)
                 .add(ModBlocks.SALT_CLUSTER)
+                .add(ModBlocks.SMALL_SELENITE_BUD)
+                .add(ModBlocks.MEDIUM_SELENITE_BUD)
+                .add(ModBlocks.LARGE_SELENITE_BUD)
+                .add(ModBlocks.SELENITE_CLUSTER)
+                .add(ModBlocks.SMALL_SPINEL_BUD)
+                .add(ModBlocks.MEDIUM_SPINEL_BUD)
+                .add(ModBlocks.LARGE_SPINEL_BUD)
+                .add(ModBlocks.SPINEL_CLUSTER)
+                .add(ModBlocks.SMALL_FLINT_BUD)
+                .add(ModBlocks.MEDIUM_FLINT_BUD)
+                .add(ModBlocks.LARGE_FLINT_BUD)
+                .add(ModBlocks.FLINT_CLUSTER)
 
                 .add(ModBlocks.MAGIC_BLOCK);
 
