@@ -70,6 +70,10 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.BUDDING_FLUORITE);
                       output.accept(ModBlocks.BUDDING_SALT);
                       output.accept(ModBlocks.BUDDING_SPINEL);
+                      output.accept(ModBlocks.SMALL_FLUORITE_BUD);
+                      output.accept(ModBlocks.MEDIUM_FLUORITE_BUD);
+                      output.accept(ModBlocks.LARGE_FLUORITE_BUD);
+                      output.accept(ModBlocks.FLUORITE_CLUSTER);
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 

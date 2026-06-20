@@ -2,28 +2,28 @@
 
   "variants": {
     "facing=down": {
-      "model": "geode:block/large_celestine_bud",
+      "model": "geode:block/fluorite_cluster",
       "x": 180
     },
     "facing=east": {
-      "model": "geode:block/large_celestine_bud",
+      "model": "geode:block/fluorite_cluster",
       "x": 90,
       "y": 90
     },
     "facing=north": {
-      "model": "geode:block/large_celestine_bud",
+      "model": "geode:block/fluorite_cluster",
       "x": 90
     },
     "facing=south": {
-      "model": "geode:block/large_celestine_bud",
+      "model": "geode:block/fluorite_cluster",
       "x": 90,
       "y": 180
     },
     "facing=up": {
-      "model": "geode:block/large_celestine_bud"
+      "model": "geode:block/fluorite_cluster"
     },
     "facing=west": {
-      "model": "geode:block/large_celestine_bud",
+      "model": "geode:block/fluorite_cluster",
       "x": 90,
       "y": 270
     }

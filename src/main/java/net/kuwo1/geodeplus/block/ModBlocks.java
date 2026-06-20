@@ -65,9 +65,49 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
-                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .sound(SoundType.MEDIUM_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block LARGE_CELESTINE_BUD = registerBlock("large_celestine_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.LARGE_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block SMALL_FLUORITE_BUD = registerBlock("small_fluorite_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block MEDIUM_FLUORITE_BUD = registerBlock("medium_fluorite_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block LARGE_FLUORITE_BUD = registerBlock("large_fluorite_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block FLUORITE_CLUSTER = registerBlock("fluorite_cluster",
             properties -> new AmethystClusterBlock(
                     3,
                     4,
@@ -77,9 +117,8 @@ public class ModBlocks {
                             .noOcclusion()));
 
 
-   public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
-            properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+
    public static final Block BERYL_BLOCK = registerBlock("beryl_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));

@@ -37,6 +37,10 @@
     "geode:budding_fluorite",
     "geode:budding_salt",
     "geode:budding_spinel",
+    "geode:small_fluorite_bud",
+    "geode:medium_fluorite_bud",
+    "geode:large_fluorite_bud",
+    "geode:fluorite_cluster",
     "geode:magic_block"
   ]
 }
