@@ -59,7 +59,7 @@ public class ModBlocks {
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
-   public static final Block MEDIUM_CELESTINE_BUD = registerBlock("small_celestine_bud",
+   public static final Block MEDIUM_CELESTINE_BUD = registerBlock("medium_celestine_bud",
             properties -> new AmethystClusterBlock(
                     3,
                     4,
@@ -68,7 +68,15 @@ public class ModBlocks {
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block LARGE_CELESTINE_BUD = registerBlock("large_celestine_bud",
-            properties -> new Block(properties.strength(3f).sound(SoundType.AMETHYST)));
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+
+
    public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));

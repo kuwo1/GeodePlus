@@ -27,8 +27,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_CELESTINE_BUD);
         registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_CELESTINE_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_CELESTINE_BUD);
 
-        blockModelGenerators.createTrivialCube(ModBlocks.LARGE_CELESTINE_BUD);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_CLUSTER);
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);
