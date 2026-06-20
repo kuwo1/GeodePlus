@@ -74,6 +74,10 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.MEDIUM_FLUORITE_BUD);
                       output.accept(ModBlocks.LARGE_FLUORITE_BUD);
                       output.accept(ModBlocks.FLUORITE_CLUSTER);
+                      output.accept(ModBlocks.SMALL_SALT_BUD);
+                      output.accept(ModBlocks.MEDIUM_SALT_BUD);
+                      output.accept(ModBlocks.LARGE_SALT_BUD);
+                      output.accept(ModBlocks.SALT_CLUSTER);
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 

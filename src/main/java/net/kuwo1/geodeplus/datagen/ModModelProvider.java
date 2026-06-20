@@ -33,6 +33,10 @@ public class ModModelProvider extends FabricModelProvider {
         registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_FLUORITE_BUD);
         registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_FLUORITE_BUD);
         registerAmethystCross(blockModelGenerators, ModBlocks.FLUORITE_CLUSTER);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_SALT_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.MEDIUM_SALT_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.LARGE_SALT_BUD);
+        registerAmethystCross(blockModelGenerators, ModBlocks.SALT_CLUSTER);
 
         blockModelGenerators.createTrivialCube(ModBlocks.BERYL_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_BERYL);

@@ -41,6 +41,10 @@
     "geode:medium_fluorite_bud",
     "geode:large_fluorite_bud",
     "geode:fluorite_cluster",
+    "geode:small_salt_bud",
+    "geode:medium_salt_bud",
+    "geode:large_salt_bud",
+    "geode:salt_cluster",
     "geode:magic_block"
   ]
 }

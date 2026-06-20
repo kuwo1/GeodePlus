@@ -115,6 +115,38 @@ public class ModBlocks {
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
+   public static final Block SMALL_SALT_BUD = registerBlock("small_salt_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block MEDIUM_SALT_BUD = registerBlock("medium_salt_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block LARGE_SALT_BUD = registerBlock("large_salt_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+   public static final Block SALT_CLUSTER = registerBlock("salt_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
 
 
 
