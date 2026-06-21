@@ -173,6 +173,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModItems.FLUORITESHARD),has(ModItems.FLUORITESHARD))
                         .group("calcite")
                         .save(output, "fluorite_block");
+                shaped(RecipeCategory.MISC,ModItems.FLINTSHARD, 2)
+                        .pattern("F")
+                        .define('F',Items.FLINT)
+                        .unlockedBy(getHasName(Items.FLINT),has(Items.FLINT))
+                        .group("calcite")
+                        .save(output, "flint_shard");
 
 
                 stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.BASALT_BRICKS))
