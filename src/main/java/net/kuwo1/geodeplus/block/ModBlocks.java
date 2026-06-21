@@ -58,6 +58,7 @@ public class ModBlocks {
                     properties
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .lightLevel(state ->1)
                             .noOcclusion()));
    public static final Block MEDIUM_CELESTINE_BUD = registerBlock("medium_celestine_bud",
             properties -> new AmethystClusterBlock(
@@ -66,6 +67,7 @@ public class ModBlocks {
                     properties
                             .strength(1.5F)
                             .sound(SoundType.MEDIUM_AMETHYST_BUD)
+                            .lightLevel(state ->2)
                             .noOcclusion()));
    public static final Block LARGE_CELESTINE_BUD = registerBlock("large_celestine_bud",
             properties -> new AmethystClusterBlock(
@@ -74,6 +76,7 @@ public class ModBlocks {
                     properties
                             .strength(1.5F)
                             .sound(SoundType.LARGE_AMETHYST_BUD)
+                            .lightLevel(state ->4)
                             .noOcclusion()));
    public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
             properties -> new AmethystClusterBlock(
@@ -82,6 +85,7 @@ public class ModBlocks {
                     properties
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .lightLevel(state ->5)
                             .noOcclusion()));
    public static final Block SMALL_FLUORITE_BUD = registerBlock("small_fluorite_bud",
             properties -> new AmethystClusterBlock(
@@ -90,6 +94,7 @@ public class ModBlocks {
                     properties
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .lightLevel(state ->1)
                             .noOcclusion()));
    public static final Block MEDIUM_FLUORITE_BUD = registerBlock("medium_fluorite_bud",
             properties -> new AmethystClusterBlock(
@@ -97,6 +102,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->2)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block LARGE_FLUORITE_BUD = registerBlock("large_fluorite_bud",
@@ -105,6 +111,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->4)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block FLUORITE_CLUSTER = registerBlock("fluorite_cluster",
@@ -113,6 +120,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->5)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block SMALL_SALT_BUD = registerBlock("small_salt_bud",
@@ -121,6 +129,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->1)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block MEDIUM_SALT_BUD = registerBlock("medium_salt_bud",
@@ -129,6 +138,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->2)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block LARGE_SALT_BUD = registerBlock("large_salt_bud",
@@ -137,6 +147,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->4)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block SALT_CLUSTER = registerBlock("salt_cluster",
@@ -145,6 +156,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->5)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block SMALL_SELENITE_BUD = registerBlock("small_selenite_bud",
@@ -153,6 +165,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->1)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block MEDIUM_SELENITE_BUD = registerBlock("medium_selenite_bud",
@@ -161,6 +174,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->2)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block LARGE_SELENITE_BUD = registerBlock("large_selenite_bud",
@@ -169,6 +183,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->4)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block SELENITE_CLUSTER = registerBlock("selenite_cluster",
@@ -177,6 +192,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->5)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block SMALL_SPINEL_BUD = registerBlock("small_spinel_bud",
@@ -185,6 +201,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->1)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block MEDIUM_SPINEL_BUD = registerBlock("medium_spinel_bud",
@@ -193,6 +210,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->2)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
    public static final Block LARGE_SPINEL_BUD = registerBlock("large_spinel_bud",
@@ -201,6 +219,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->4)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
  public static final Block SPINEL_CLUSTER = registerBlock("spinel_cluster",
@@ -209,6 +228,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->5)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
  public static final Block SMALL_FLINT_BUD = registerBlock("small_flint_bud",
@@ -217,6 +237,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->1)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
  public static final Block MEDIUM_FLINT_BUD = registerBlock("medium_flint_bud",
@@ -225,6 +246,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->2)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
  public static final Block LARGE_FLINT_BUD = registerBlock("large_flint_bud",
@@ -233,6 +255,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->4)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
  public static final Block FLINT_CLUSTER = registerBlock("flint_cluster",
@@ -241,6 +264,7 @@ public class ModBlocks {
                     4,
                     properties
                             .strength(1.5F)
+                            .lightLevel(state ->5)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
 

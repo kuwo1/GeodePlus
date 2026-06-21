@@ -1,10 +1,20 @@
 package net.kuwo1.geodeplus.datagen;
 
+import com.jcraft.jorbis.Block;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
 import net.kuwo1.geodeplus.Item.ModItems;
 import net.kuwo1.geodeplus.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.enchantment.Enchantment;
+import net.minecraft.world.item.enchantment.Enchantments;
+import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.entries.LootItem;
+import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
+import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -46,7 +56,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BUDDING_SALT);
         dropSelf(ModBlocks.BUDDING_SPINEL);
 
-        dropOther(ModBlocks.SMALL_CELESTINE_BUD, ModItems.CELESTINESHARD);
+        add(ModBlocks.SMALL_CELESTINE_BUD, createOreDrop(ModBlocks.SMALL_CELESTINE_BUD, ModItems.CELESTINESHARD));
         dropOther(ModBlocks.MEDIUM_CELESTINE_BUD, ModItems.CELESTINESHARD);
         dropOther(ModBlocks.LARGE_CELESTINE_BUD, ModItems.CELESTINESHARD);
         dropOther(ModBlocks.CELESTINE_CLUSTER, ModItems.CELESTINESHARD);
@@ -101,4 +111,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.GEODEPACK_BRICK_WALL);
 
     }
+
+
+
+
 }
