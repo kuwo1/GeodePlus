@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "geode:block/geodepack"
+    "model": "geode:item/small_salt_bud"
   }
 }

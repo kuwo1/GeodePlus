@@ -7,6 +7,7 @@ import net.kuwo1.geodeplus.block.ModBlocks;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -122,6 +123,31 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerators.generateFlatItem(ModItems.SALTSHARD, ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(ModItems.SELENITESHARD, ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(ModItems.FLINTSHARD, ModelTemplates.FLAT_ITEM);
+
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_CELESTINE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_CELESTINE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_CELESTINE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.CELESTINE_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_FLINT_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_FLINT_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_FLINT_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.FLINT_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_SPINEL_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_SPINEL_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_SPINEL_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SPINEL_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_FLUORITE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_FLUORITE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_FLUORITE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.FLUORITE_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_SALT_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_SALT_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_SALT_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SALT_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_SELENITE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_SELENITE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_SELENITE_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SELENITE_CLUSTER),ModelTemplates.FLAT_ITEM);
     }
 
 }
