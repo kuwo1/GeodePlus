@@ -267,6 +267,78 @@ public class ModBlocks {
                             .lightLevel(state ->5)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
                             .noOcclusion()));
+ public static final Block SMALL_BERYL_BUD = registerBlock("small_beryl_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->1)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block MEDIUM_BERYL_BUD = registerBlock("medium_beryl_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->2)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block LARGE_BERYL_BUD = registerBlock("large_beryl_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->4)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block BERYL_CLUSTER = registerBlock("beryl_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->5)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block SMALL_CHOCOLATE_DIAMOND_BUD = registerBlock("small_chocolate_diamond_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->1)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block MEDIUM_CHOCOLATE_DIAMOND_BUD = registerBlock("medium_chocolate_diamond_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->2)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block LARGE_CHOCOLATE_DIAMOND_BUD = registerBlock("large_chocolate_diamond_bud",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->4)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
+ public static final Block CHOCOLATE_DIAMOND_CLUSTER = registerBlock("chocolate_diamond_cluster",
+            properties -> new AmethystClusterBlock(
+                    3,
+                    4,
+                    properties
+                            .strength(1.5F)
+                            .lightLevel(state ->5)
+                            .sound(SoundType.SMALL_AMETHYST_BUD)
+                            .noOcclusion()));
 
 
 

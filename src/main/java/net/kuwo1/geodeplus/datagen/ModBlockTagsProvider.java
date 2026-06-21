@@ -73,6 +73,14 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.MEDIUM_FLINT_BUD)
                 .add(ModBlocks.LARGE_FLINT_BUD)
                 .add(ModBlocks.FLINT_CLUSTER)
+                .add(ModBlocks.SMALL_BERYL_BUD)
+                .add(ModBlocks.MEDIUM_BERYL_BUD)
+                .add(ModBlocks.LARGE_BERYL_BUD)
+                .add(ModBlocks.BERYL_CLUSTER)
+                .add(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD)
+                .add(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD)
+                .add(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD)
+                .add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER)
 
                 .add(ModBlocks.MAGIC_BLOCK);
 

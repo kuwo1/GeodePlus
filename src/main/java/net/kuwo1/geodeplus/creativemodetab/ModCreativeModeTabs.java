@@ -89,6 +89,14 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.MEDIUM_FLINT_BUD);
                       output.accept(ModBlocks.LARGE_FLINT_BUD);
                       output.accept(ModBlocks.FLINT_CLUSTER);
+                      output.accept(ModBlocks.SMALL_BERYL_BUD);
+                      output.accept(ModBlocks.MEDIUM_BERYL_BUD);
+                      output.accept(ModBlocks.LARGE_BERYL_BUD);
+                      output.accept(ModBlocks.BERYL_CLUSTER);
+                      output.accept(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD);
+                      output.accept(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD);
+                      output.accept(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD);
+                      output.accept(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER);
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 

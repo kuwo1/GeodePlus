@@ -56,6 +56,14 @@
     "geode:medium_flint_bud",
     "geode:large_flint_bud",
     "geode:flint_cluster",
+    "geode:small_beryl_bud",
+    "geode:medium_beryl_bud",
+    "geode:large_beryl_bud",
+    "geode:beryl_cluster",
+    "geode:small_chocolate_diamond_bud",
+    "geode:medium_chocolate_diamond_bud",
+    "geode:large_chocolate_diamond_bud",
+    "geode:chocolate_diamond_cluster",
     "geode:magic_block"
   ]
 }

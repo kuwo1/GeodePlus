@@ -80,6 +80,14 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropOther(ModBlocks.MEDIUM_FLINT_BUD, ModItems.FLINTSHARD);
         dropOther(ModBlocks.LARGE_FLINT_BUD, ModItems.FLINTSHARD);
         dropOther(ModBlocks.FLINT_CLUSTER, ModItems.FLINTSHARD);
+        dropOther(ModBlocks.SMALL_BERYL_BUD, ModItems.BERYLSHARD);
+        dropOther(ModBlocks.MEDIUM_BERYL_BUD, ModItems.BERYLSHARD);
+        dropOther(ModBlocks.LARGE_BERYL_BUD, ModItems.BERYLSHARD);
+        dropOther(ModBlocks.BERYL_CLUSTER, ModItems.BERYLSHARD);
+        dropOther(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
+        dropOther(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
+        dropOther(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
+        dropOther(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, ModItems.CHOCOLATEDIAMONDSHARD);
 
         dropSelf(ModBlocks.MAGIC_BLOCK);
 

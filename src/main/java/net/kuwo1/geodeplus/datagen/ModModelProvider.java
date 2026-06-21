@@ -148,6 +148,15 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_SELENITE_BUD),ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_SELENITE_BUD),ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SELENITE_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_BERYL_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_BERYL_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_BERYL_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.BERYL_CLUSTER),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD),ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER),ModelTemplates.FLAT_ITEM);
+
     }
 
 }
