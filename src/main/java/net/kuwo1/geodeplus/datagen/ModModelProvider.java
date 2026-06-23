@@ -22,7 +22,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.GEODEPACK_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.SELENITE_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_BLOCK);
-        blockModelGenerators.createTrivialCube(ModBlocks.CELESTINE_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.BUDDING_CELESTINE);
 
         registerAmethystCross(blockModelGenerators, ModBlocks.SMALL_CELESTINE_BUD);
@@ -117,6 +116,10 @@ public class ModModelProvider extends FabricModelProvider {
                 .stairs(ModBlocks.BERYL_BRICK_STAIRS)
                 .slab(ModBlocks.BERYL_BRICK_SLAB)
                 .wall(ModBlocks.BERYL_BRICK_WALL);
+        blockModelGenerators.family(ModBlocks.CELESTINE_BRICKS)
+                .stairs(ModBlocks.CELESTINE_BRICK_STAIRS)
+                .slab(ModBlocks.CELESTINE_BRICK_SLAB)
+                .wall(ModBlocks.CELESTINE_BRICK_WALL);
 
 
 
