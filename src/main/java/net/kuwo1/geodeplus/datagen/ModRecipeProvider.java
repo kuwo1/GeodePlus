@@ -217,6 +217,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.FLINT_BRICKS),has(ModBlocks.FLINT_BRICKS))
                         .group("calcite")
                         .save(output);
+                stairBuilder(ModBlocks.SPINEL_BRICK_STAIRS, Ingredient.of(ModBlocks.SPINEL_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.SPINEL_BRICKS),has(ModBlocks.SPINEL_BRICKS))
+                        .group("calcite")
+                        .save(output);
 
                 buttonBuilder(ModBlocks.BASALT_BRICK_BUTTON, Ingredient.of(ModBlocks.BASALT_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.BASALT_BRICKS),has(ModBlocks.BASALT_BRICKS))
@@ -243,6 +247,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL, ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_BRICK_WALL, ModBlocks.FLUORITE_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLINT_BRICK_WALL, ModBlocks.FLINT_BRICKS);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SPINEL_BRICK_WALL, ModBlocks.SPINEL_BRICKS);
 
 
 
@@ -255,6 +260,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SALT_BRICK_SLAB, ModBlocks.SALT_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SELENITE_BRICK_SLAB, ModBlocks.SELENITE_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLINT_BRICK_SLAB, ModBlocks.FLINT_BRICKS);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SPINEL_BRICK_SLAB, ModBlocks.SPINEL_BRICKS);
 
 
 
