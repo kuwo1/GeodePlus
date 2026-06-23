@@ -435,6 +435,9 @@ public class ModBlocks {
     public static final Block SELENITE_BRICK_STAIRS = registerBlock("selenite_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block FLINT_BRICK_STAIRS = registerBlock("flint_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
@@ -451,6 +454,8 @@ public class ModBlocks {
     public static final Block SALT_BRICK_SLAB = registerBlock("salt_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block SELENITE_BRICK_SLAB = registerBlock("selenite_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block FLINT_BRICK_SLAB = registerBlock("flint_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
@@ -502,6 +507,8 @@ public class ModBlocks {
     public static final Block CHOCOLATE_DIAMOND_BRICK_WALL = registerBlock("chocolate_diamond_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block FLUORITE_BRICK_WALL = registerBlock("fluorite_brick_wall",
+            properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block FLINT_BRICK_WALL = registerBlock("flint_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
 

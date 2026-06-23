@@ -115,6 +115,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.FLUORITE_BRICK_STAIRS);
                       output.accept(ModBlocks.SELENITE_BRICK_STAIRS);
                       output.accept(ModBlocks.SALT_BRICK_STAIRS);
+                      output.accept(ModBlocks.FLINT_BRICK_STAIRS);
 
 
                       output.accept(ModBlocks.CALCITE_BRICK_SLAB);
@@ -125,6 +126,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.FLUORITE_BRICK_SLAB);
                       output.accept(ModBlocks.SELENITE_BRICK_SLAB);
                       output.accept(ModBlocks.SALT_BRICK_SLAB);
+                      output.accept(ModBlocks.FLINT_BRICK_SLAB);
 
 
                         output.accept(ModBlocks.BASALT_BRICK_BUTTON);
@@ -142,6 +144,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.SALT_BRICK_WALL);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL);
                       output.accept(ModBlocks.FLUORITE_BRICK_WALL);
+                      output.accept(ModBlocks.FLINT_BRICK_WALL);
 
 
                     }).build());

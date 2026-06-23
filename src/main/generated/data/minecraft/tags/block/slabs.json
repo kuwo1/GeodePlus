@@ -6,6 +6,7 @@
     "geode:amethyst_brick_slab",
     "geode:fluorite_brick_slab",
     "geode:salt_brick_slab",
-    "geode:selenite_brick_slab"
+    "geode:selenite_brick_slab",
+    "geode:flint_brick_slab"
   ]
 }
