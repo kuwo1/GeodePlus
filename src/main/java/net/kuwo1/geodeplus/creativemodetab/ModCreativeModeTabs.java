@@ -97,6 +97,14 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD);
                       output.accept(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER);
+                      output.accept(ModBlocks.SALT_BRICK_WALL);
+                      output.accept(ModBlocks.SALT_BRICK_SLAB);
+                      output.accept(ModBlocks.SALT_BRICK_STAIRS);
+                      output.accept(ModBlocks.SELENITE_BRICK_WALL);
+                      output.accept(ModBlocks.SELENITE_BRICK_SLAB);
+                      output.accept(ModBlocks.SELENITE_BRICK_STAIRS);
+
+
 
                       output.accept(ModBlocks.MAGIC_BLOCK);
 

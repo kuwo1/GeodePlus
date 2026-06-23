@@ -432,6 +432,9 @@ public class ModBlocks {
     public static final Block SALT_BRICK_STAIRS = registerBlock("salt_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block SELENITE_BRICK_STAIRS = registerBlock("selenite_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
@@ -446,6 +449,8 @@ public class ModBlocks {
     public static final Block FLUORITE_BRICK_SLAB = registerBlock("fluorite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block SALT_BRICK_SLAB = registerBlock("salt_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block SELENITE_BRICK_SLAB = registerBlock("selenite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
@@ -489,6 +494,10 @@ public class ModBlocks {
     public static final Block CALCITE_BRICK_WALL = registerBlock("calcite_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block GEODEPACK_BRICK_WALL = registerBlock("geodepack_brick_wall",
+            properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block SALT_BRICK_WALL = registerBlock("salt_brick_wall",
+            properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block SELENITE_BRICK_WALL = registerBlock("selenite_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
 

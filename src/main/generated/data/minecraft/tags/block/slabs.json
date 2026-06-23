@@ -5,6 +5,7 @@
     "geode:geodepack_brick_slab",
     "geode:amethyst_brick_slab",
     "geode:fluorite_brick_slab",
-    "geode:salt_brick_slab"
+    "geode:salt_brick_slab",
+    "geode:selenite_brick_slab"
   ]
 }

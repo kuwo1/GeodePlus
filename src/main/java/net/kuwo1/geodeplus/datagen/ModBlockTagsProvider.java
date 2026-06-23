@@ -91,6 +91,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.AMETHYST_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.FLUORITE_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SALT_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SELENITE_BRICK_STAIRS);
 
 
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.BASALT_BRICK_SLAB);
@@ -99,6 +100,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.AMETHYST_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.FLUORITE_BRICK_SLAB);
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.SALT_BRICK_SLAB);
+        valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.SELENITE_BRICK_SLAB);
 
         valueLookupBuilder(BlockTags.BUTTONS) .add(ModBlocks. BASALT_BRICK_BUTTON);
         valueLookupBuilder(BlockTags.BUTTONS) .add(ModBlocks. CALCITE_BRICK_BUTTON);
@@ -111,6 +113,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.BASALT_BRICK_WALL);
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.CALCITE_BRICK_WALL);
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.GEODEPACK_BRICK_WALL);
+        valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.SALT_BRICK_WALL);
+        valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.SELENITE_BRICK_WALL);
 
 
     }

@@ -209,6 +209,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.SALT_BRICKS),has(ModBlocks.SALT_BRICKS))
                         .group("calcite")
                         .save(output);
+                stairBuilder(ModBlocks.SELENITE_BRICK_STAIRS, Ingredient.of(ModBlocks.SALT_BRICKS))
+                        .unlockedBy(getHasName(ModBlocks.SALT_BRICKS),has(ModBlocks.SALT_BRICKS))
+                        .group("calcite")
+                        .save(output);
 
                 buttonBuilder(ModBlocks.BASALT_BRICK_BUTTON, Ingredient.of(ModBlocks.BASALT_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.BASALT_BRICKS),has(ModBlocks.BASALT_BRICKS))
@@ -230,6 +234,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_WALL, ModBlocks.BASALT_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_BRICK_WALL, ModBlocks.CALCITE_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEODEPACK_BRICK_WALL, ModBlocks.GEODEPACK_BRICKS);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SALT_BRICK_WALL, ModBlocks.SALT_BRICKS);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SELENITE_BRICK_WALL, ModBlocks.SELENITE_BRICKS);
 
 
 
@@ -240,6 +246,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_BRICK_SLAB, ModBlocks.AMETHYST_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_BRICK_SLAB, ModBlocks.FLUORITE_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SALT_BRICK_SLAB, ModBlocks.SALT_BRICKS);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SELENITE_BRICK_SLAB, ModBlocks.SELENITE_BRICKS);
 
 
 
