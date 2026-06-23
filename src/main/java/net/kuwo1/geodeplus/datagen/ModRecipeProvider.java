@@ -49,10 +49,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .save(output);
 
                 shaped(RecipeCategory.MISC,ModBlocks.GEODEPACK_BRICKS)
-                        .pattern("BC")
-                        .pattern("CB")
-                        .define('C',ModItems.CALCITECLUMP)
-                        .define('B',ModItems.BASALTCLUMP)
+                        .pattern("BB")
+                        .pattern("BB")
+                        .define('B',ModBlocks.GEODEPACK_BLOCK)
                         .unlockedBy(getHasName(ModItems.CALCITECLUMP),has(ModItems.CALCITECLUMP))
                         .group("calcite")
                         .save(output, "geodepack_bricks");
