@@ -54,7 +54,7 @@ public class ModBlocks {
    public static final Block SMALL_CELESTINE_BUD = registerBlock("small_celestine_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
@@ -62,8 +62,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block MEDIUM_CELESTINE_BUD = registerBlock("medium_celestine_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .sound(SoundType.MEDIUM_AMETHYST_BUD)
@@ -71,8 +71,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block LARGE_CELESTINE_BUD = registerBlock("large_celestine_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .sound(SoundType.LARGE_AMETHYST_BUD)
@@ -80,8 +80,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block CELESTINE_CLUSTER = registerBlock("celestine_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
@@ -90,7 +90,7 @@ public class ModBlocks {
    public static final Block SMALL_FLUORITE_BUD = registerBlock("small_fluorite_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .sound(SoundType.SMALL_AMETHYST_BUD)
@@ -98,8 +98,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block MEDIUM_FLUORITE_BUD = registerBlock("medium_fluorite_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -107,8 +107,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block LARGE_FLUORITE_BUD = registerBlock("large_fluorite_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -116,8 +116,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block FLUORITE_CLUSTER = registerBlock("fluorite_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)
@@ -126,7 +126,7 @@ public class ModBlocks {
    public static final Block SMALL_SALT_BUD = registerBlock("small_salt_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->1)
@@ -134,8 +134,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block MEDIUM_SALT_BUD = registerBlock("medium_salt_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -143,8 +143,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block LARGE_SALT_BUD = registerBlock("large_salt_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -152,8 +152,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block SALT_CLUSTER = registerBlock("salt_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)
@@ -162,7 +162,7 @@ public class ModBlocks {
    public static final Block SMALL_SELENITE_BUD = registerBlock("small_selenite_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->1)
@@ -170,8 +170,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block MEDIUM_SELENITE_BUD = registerBlock("medium_selenite_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -179,8 +179,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block LARGE_SELENITE_BUD = registerBlock("large_selenite_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -188,8 +188,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block SELENITE_CLUSTER = registerBlock("selenite_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)
@@ -198,7 +198,7 @@ public class ModBlocks {
    public static final Block SMALL_SPINEL_BUD = registerBlock("small_spinel_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->1)
@@ -206,8 +206,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block MEDIUM_SPINEL_BUD = registerBlock("medium_spinel_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -215,8 +215,8 @@ public class ModBlocks {
                             .noOcclusion()));
    public static final Block LARGE_SPINEL_BUD = registerBlock("large_spinel_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -224,8 +224,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block SPINEL_CLUSTER = registerBlock("spinel_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)
@@ -234,7 +234,7 @@ public class ModBlocks {
  public static final Block SMALL_FLINT_BUD = registerBlock("small_flint_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->1)
@@ -242,8 +242,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block MEDIUM_FLINT_BUD = registerBlock("medium_flint_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -251,8 +251,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block LARGE_FLINT_BUD = registerBlock("large_flint_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -260,8 +260,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block FLINT_CLUSTER = registerBlock("flint_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)
@@ -270,7 +270,7 @@ public class ModBlocks {
  public static final Block SMALL_BERYL_BUD = registerBlock("small_beryl_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->1)
@@ -278,8 +278,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block MEDIUM_BERYL_BUD = registerBlock("medium_beryl_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -287,8 +287,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block LARGE_BERYL_BUD = registerBlock("large_beryl_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -296,8 +296,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block BERYL_CLUSTER = registerBlock("beryl_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)
@@ -306,7 +306,7 @@ public class ModBlocks {
  public static final Block SMALL_CHOCOLATE_DIAMOND_BUD = registerBlock("small_chocolate_diamond_bud",
             properties -> new AmethystClusterBlock(
                     3,
-                    4,
+                    8,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->1)
@@ -314,8 +314,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block MEDIUM_CHOCOLATE_DIAMOND_BUD = registerBlock("medium_chocolate_diamond_bud",
             properties -> new AmethystClusterBlock(
-                    3,
                     4,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->2)
@@ -323,8 +323,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block LARGE_CHOCOLATE_DIAMOND_BUD = registerBlock("large_chocolate_diamond_bud",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    5,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->4)
@@ -332,8 +332,8 @@ public class ModBlocks {
                             .noOcclusion()));
  public static final Block CHOCOLATE_DIAMOND_CLUSTER = registerBlock("chocolate_diamond_cluster",
             properties -> new AmethystClusterBlock(
-                    3,
-                    4,
+                    7,
+                    10,
                     properties
                             .strength(1.5F)
                             .lightLevel(state ->5)

@@ -165,7 +165,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("FF")
                         .define('F',ModBlocks.FLUORITE_BLOCK)
                         .unlockedBy(getHasName(ModBlocks.FLUORITE_BLOCK),has(ModBlocks.FLUORITE_BLOCK))
-                        .group("calcite");
+                        .group("calcite")
+                        .save(output, "fluorite_bricks");
                 shaped(RecipeCategory.MISC,ModBlocks.FLUORITE_BLOCK)
                         .pattern("FF")
                         .pattern("FF")
