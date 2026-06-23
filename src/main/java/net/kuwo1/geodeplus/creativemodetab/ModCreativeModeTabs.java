@@ -97,12 +97,11 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD);
                       output.accept(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER);
-                      output.accept(ModBlocks.SALT_BRICK_WALL);
-                      output.accept(ModBlocks.SALT_BRICK_SLAB);
-                      output.accept(ModBlocks.SALT_BRICK_STAIRS);
-                      output.accept(ModBlocks.SELENITE_BRICK_WALL);
-                      output.accept(ModBlocks.SELENITE_BRICK_SLAB);
-                      output.accept(ModBlocks.SELENITE_BRICK_STAIRS);
+
+
+
+
+
 
 
 
@@ -114,6 +113,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
                       output.accept(ModBlocks.AMETHYST_BRICK_STAIRS);
                       output.accept(ModBlocks.FLUORITE_BRICK_STAIRS);
+                      output.accept(ModBlocks.SELENITE_BRICK_STAIRS);
+                      output.accept(ModBlocks.SALT_BRICK_STAIRS);
 
 
                       output.accept(ModBlocks.CALCITE_BRICK_SLAB);
@@ -122,8 +123,11 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
                       output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
                       output.accept(ModBlocks.FLUORITE_BRICK_SLAB);
+                      output.accept(ModBlocks.SELENITE_BRICK_SLAB);
+                      output.accept(ModBlocks.SALT_BRICK_SLAB);
 
-                      output.accept(ModBlocks.BASALT_BRICK_BUTTON);
+
+                        output.accept(ModBlocks.BASALT_BRICK_BUTTON);
                       output.accept(ModBlocks.CALCITE_BRICK_BUTTON);
                       output.accept(ModBlocks.GEODEPACK_BRICK_BUTTON);
 
@@ -134,6 +138,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.BASALT_BRICK_WALL);
                       output.accept(ModBlocks.CALCITE_BRICK_WALL);
                       output.accept(ModBlocks.GEODEPACK_BRICK_WALL);
+                      output.accept(ModBlocks.SELENITE_BRICK_WALL);
+                      output.accept(ModBlocks.SALT_BRICK_WALL);
 
 
                     }).build());
