@@ -106,6 +106,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.AMETHYST_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.FLUORITE_BRICK_SLAB, this::createSlabItemTable);
+        add(ModBlocks.SALT_BRICK_SLAB, this::createSlabItemTable);
 
         dropSelf(ModBlocks.BASALT_BRICK_BUTTON);
         dropSelf(ModBlocks.CALCITE_BRICK_BUTTON);

@@ -445,6 +445,8 @@ public class ModBlocks {
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block FLUORITE_BRICK_SLAB = registerBlock("fluorite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block SALT_BRICK_SLAB = registerBlock("salt_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,

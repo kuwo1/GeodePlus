@@ -239,6 +239,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB, ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_BRICK_SLAB, ModBlocks.AMETHYST_BRICKS);
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_BRICK_SLAB, ModBlocks.FLUORITE_BRICKS);
+                slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SALT_BRICK_SLAB, ModBlocks.SALT_BRICKS);
 
 
 
