@@ -8,6 +8,7 @@
     "geode:salt_brick_slab",
     "geode:selenite_brick_slab",
     "geode:flint_brick_slab",
-    "geode:spinel_brick_slab"
+    "geode:spinel_brick_slab",
+    "geode:beryl_brick_slab"
   ]
 }

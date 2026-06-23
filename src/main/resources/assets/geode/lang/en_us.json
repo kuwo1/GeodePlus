@@ -86,6 +86,7 @@
   "block.geode.selenite_brick_stairs": "Selenite Brick Stairs",
   "block.geode.flint_brick_stairs": "Flint Brick Stairs",
   "block.geode.spinel_brick_stairs": "Spinel Brick Stairs",
+  "block.geode.beryl_brick_stairs": "Beryl Brick Stairs",
 
 
   "block.geode.basalt_brick_slab": "Basalt Brick Slab",
@@ -98,6 +99,7 @@
   "block.geode.selenite_brick_slab": "Selenite Brick Slab",
   "block.geode.flint_brick_slab": "Flint Brick Slab",
   "block.geode.spinel_brick_slab": "Spinel Brick Slab",
+  "block.geode.beryl_brick_slab": "Beryl Brick Slab",
 
   "block.geode.basalt_brick_button": "Basalt Brick Button",
   "block.geode.calcite_brick_button": "Calcite Brick Button",
@@ -116,6 +118,7 @@
   "block.geode.fluorite_brick_wall": "Fluorite Brick Wall",
   "block.geode.flint_brick_wall": "Flint Brick Wall",
   "block.geode.spinel_brick_wall": "Spinel Brick Wall",
+  "block.geode.beryl_brick_wall": "Beryl Brick Wall",
 
 
 

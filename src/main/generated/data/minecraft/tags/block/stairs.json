@@ -9,6 +9,7 @@
     "geode:salt_brick_stairs",
     "geode:selenite_brick_stairs",
     "geode:flint_brick_stairs",
-    "geode:spinel_brick_stairs"
+    "geode:spinel_brick_stairs",
+    "geode:beryl_brick_stairs"
   ]
 }

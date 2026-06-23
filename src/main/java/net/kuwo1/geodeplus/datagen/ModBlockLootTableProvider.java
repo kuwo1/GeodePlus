@@ -102,6 +102,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.SELENITE_BRICK_STAIRS);
         dropSelf(ModBlocks.FLINT_BRICK_STAIRS);
         dropSelf(ModBlocks.SPINEL_BRICK_STAIRS);
+        dropSelf(ModBlocks.BERYL_BRICK_STAIRS);
 
         add(ModBlocks.BASALT_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.CALCITE_BRICK_SLAB, this::createSlabItemTable);
@@ -113,6 +114,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.SELENITE_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.FLINT_BRICK_SLAB, this::createSlabItemTable);
         add(ModBlocks.SPINEL_BRICK_SLAB, this::createSlabItemTable);
+        add(ModBlocks.BERYL_BRICK_SLAB, this::createSlabItemTable);
 
         dropSelf(ModBlocks.BASALT_BRICK_BUTTON);
         dropSelf(ModBlocks.CALCITE_BRICK_BUTTON);
@@ -131,6 +133,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.FLUORITE_BRICK_WALL);
         dropSelf(ModBlocks.FLINT_BRICK_WALL);
         dropSelf(ModBlocks.SPINEL_BRICK_WALL);
+        dropSelf(ModBlocks.BERYL_BRICK_WALL);
 
     }
 

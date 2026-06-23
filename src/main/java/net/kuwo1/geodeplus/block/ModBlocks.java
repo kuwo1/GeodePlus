@@ -441,6 +441,9 @@ public class ModBlocks {
     public static final Block SPINEL_BRICK_STAIRS = registerBlock("spinel_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block BERYL_BRICK_STAIRS = registerBlock("beryl_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
@@ -461,6 +464,8 @@ public class ModBlocks {
     public static final Block FLINT_BRICK_SLAB = registerBlock("flint_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block SPINEL_BRICK_SLAB = registerBlock("spinel_brick_slab",
+            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block BERYL_BRICK_SLAB = registerBlock("beryl_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
@@ -516,6 +521,8 @@ public class ModBlocks {
     public static final Block FLINT_BRICK_WALL = registerBlock("flint_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block SPINEL_BRICK_WALL = registerBlock("spinel_brick_wall",
+            properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block BERYL_BRICK_WALL = registerBlock("beryl_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
 
