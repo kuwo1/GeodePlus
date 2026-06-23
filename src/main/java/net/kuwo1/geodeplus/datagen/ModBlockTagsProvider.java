@@ -90,6 +90,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.AMETHYST_BRICK_STAIRS);
         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.FLUORITE_BRICK_STAIRS);
+        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SALT_BRICK_STAIRS);
 
 
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.BASALT_BRICK_SLAB);

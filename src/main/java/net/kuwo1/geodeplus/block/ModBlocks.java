@@ -429,6 +429,9 @@ public class ModBlocks {
     public static final Block FLUORITE_BRICK_STAIRS = registerBlock("fluorite_brick_stairs",
             properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
                     properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block SALT_BRICK_STAIRS = registerBlock("salt_brick_stairs",
+            properties -> new StairBlock(ModBlocks.BASALT_BRICKS.defaultBlockState(),
+                    properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
             properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));

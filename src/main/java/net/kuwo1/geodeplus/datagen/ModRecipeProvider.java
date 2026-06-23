@@ -205,7 +205,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.FLUORITE_BRICKS),has(ModBlocks.FLUORITE_BRICKS))
                         .group("calcite")
                         .save(output);
-                stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.SALT_BRICKS))
+                stairBuilder(ModBlocks.SALT_BRICK_STAIRS, Ingredient.of(ModBlocks.SALT_BRICKS))
                         .unlockedBy(getHasName(ModBlocks.SALT_BRICKS),has(ModBlocks.SALT_BRICKS))
                         .group("calcite")
                         .save(output);
@@ -230,7 +230,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_WALL, ModBlocks.BASALT_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CALCITE_BRICK_WALL, ModBlocks.CALCITE_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEODEPACK_BRICK_WALL, ModBlocks.GEODEPACK_BRICKS);
-                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_WALL, ModBlocks.SALT_BRICKS);
+
 
 
                 slab(RecipeCategory.BUILDING_BLOCKS, ModBlocks.BASALT_BRICK_SLAB, ModBlocks.BASALT_BRICKS);

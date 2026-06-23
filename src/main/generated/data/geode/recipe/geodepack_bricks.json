@@ -3,12 +3,11 @@
   "category": "misc",
   "group": "calcite",
   "key": {
-    "B": "geode:basalt_clump",
-    "C": "geode:calcite_clump"
+    "B": "geode:geodepack_block"
   },
   "pattern": [
-    "BC",
-    "CB"
+    "BB",
+    "BB"
   ],
   "result": {
     "id": "geode:geodepack_bricks"
