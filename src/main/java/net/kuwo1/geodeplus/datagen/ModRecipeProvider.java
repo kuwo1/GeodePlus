@@ -236,7 +236,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.GEODEPACK_BRICK_WALL, ModBlocks.GEODEPACK_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SALT_BRICK_WALL, ModBlocks.SALT_BRICKS);
                 wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SELENITE_BRICK_WALL, ModBlocks.SELENITE_BRICKS);
-                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL, ModBlocks.SELENITE_BRICKS);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL, ModBlocks.CHOCOLATE_DIAMOND_BRICKS);
+                wall(RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLUORITE_BRICK_WALL, ModBlocks.FLUORITE_BRICKS);
 
 
 

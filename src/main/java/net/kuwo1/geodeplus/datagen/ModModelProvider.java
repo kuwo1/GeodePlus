@@ -99,6 +99,7 @@ public class ModModelProvider extends FabricModelProvider {
                 .slab(ModBlocks.AMETHYST_BRICK_SLAB);
         blockModelGenerators.family(ModBlocks.FLUORITE_BRICKS)
                 .stairs(ModBlocks.FLUORITE_BRICK_STAIRS)
+                .wall(ModBlocks.FLUORITE_BRICK_WALL)
                 .slab(ModBlocks.FLUORITE_BRICK_SLAB);
         blockModelGenerators.family(ModBlocks.SALT_BRICKS)
                 .stairs(ModBlocks.SALT_BRICK_STAIRS)

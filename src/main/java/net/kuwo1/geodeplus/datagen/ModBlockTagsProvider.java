@@ -116,6 +116,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.SALT_BRICK_WALL);
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.SELENITE_BRICK_WALL);
         valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL);
+        valueLookupBuilder(BlockTags.WALLS) .add(ModBlocks.FLUORITE_BRICK_WALL);
 
 
     }
