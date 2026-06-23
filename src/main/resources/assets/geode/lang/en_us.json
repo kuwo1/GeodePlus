@@ -82,6 +82,8 @@
   "block.geode.chocolate_diamond_brick_stairs": "Chocolate Diamond Brick Stairs",
   "block.geode.amethyst_brick_stairs": "Amethyst Brick Stairs",
   "block.geode.fluorite_brick_stairs": "Fluorite Brick Stairs",
+  "block.geode.salt_brick_stairs": "Salt Brick Stairs",
+  "block.geode.selenite_brick_stairs": "Selenite Brick Stairs",
 
 
   "block.geode.basalt_brick_slab": "Basalt Brick Slab",
@@ -90,6 +92,8 @@
   "block.geode.chocolate_diamond_brick_slab": "Chocolate Diamond Brick Slab",
   "block.geode.amethyst_brick_slab": "Amethyst Brick Slab",
   "block.geode.fluorite_brick_slab": "Fluorite Brick Slab",
+  "block.geode.salt_brick_slab": "Salt Brick Slab",
+  "block.geode.selenite_brick_slab": "Selenite Brick Slab",
 
   "block.geode.basalt_brick_button": "Basalt Brick Button",
   "block.geode.calcite_brick_button": "Calcite Brick Button",
@@ -102,6 +106,9 @@
   "block.geode.basalt_brick_wall": "Basalt Brick Wall",
   "block.geode.calcite_brick_wall": "Calcite Brick Wall",
   "block.geode.geodepack_brick_wall": "Geodepack Brick Wall",
+  "block.geode.salt_brick_wall": "Salt Brick Wall",
+  "block.geode.selenite_brick_wall": "Selenite Brick Wall",
+  "block.geode.chocolate_diamond_brick_wall": "Chocolate Diamond Brick Wall",
 
 
 

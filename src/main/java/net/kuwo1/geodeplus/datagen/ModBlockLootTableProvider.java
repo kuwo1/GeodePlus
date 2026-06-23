@@ -123,6 +123,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.GEODEPACK_BRICK_WALL);
         dropSelf(ModBlocks.SALT_BRICK_WALL);
         dropSelf(ModBlocks.SELENITE_BRICK_WALL);
+        dropSelf(ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL);
 
     }
 

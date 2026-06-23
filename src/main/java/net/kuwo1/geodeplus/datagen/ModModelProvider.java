@@ -92,6 +92,7 @@ public class ModModelProvider extends FabricModelProvider {
                 .wall(ModBlocks.GEODEPACK_BRICK_WALL);
         blockModelGenerators.family(ModBlocks.CHOCOLATE_DIAMOND_BRICKS)
                 .stairs(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS)
+                .wall(ModBlocks.CHOCOLATE_DIAMOND_BRICK_WALL)
                 .slab(ModBlocks.CHOCOLATE_DIAMOND_BRICK_SLAB);
         blockModelGenerators.family(ModBlocks.AMETHYST_BRICKS)
                 .stairs(ModBlocks.AMETHYST_BRICK_STAIRS)

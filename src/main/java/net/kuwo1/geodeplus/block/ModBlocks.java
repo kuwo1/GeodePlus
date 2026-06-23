@@ -499,6 +499,8 @@ public class ModBlocks {
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
     public static final Block SELENITE_BRICK_WALL = registerBlock("selenite_brick_wall",
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+    public static final Block CHOCOLATE_DIAMOND_BRICK_WALL = registerBlock("chocolate_diamond_brick_wall",
+            properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
 
 
