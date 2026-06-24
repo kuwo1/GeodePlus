@@ -105,7 +105,7 @@ public class ModCreativeModeTabs {
 
 
 
-                      output.accept(ModBlocks.MAGIC_BLOCK);
+
 
                       output.accept(ModBlocks.BASALT_BRICK_STAIRS);
                       output.accept(ModBlocks.CALCITE_BRICK_STAIRS);
