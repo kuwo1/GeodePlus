@@ -109,6 +109,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks. BASALT_BRICK_BUTTON)
                 .add(ModBlocks. CALCITE_BRICK_BUTTON)
                 .add(ModBlocks. GEODEPACK_BRICK_BUTTON)
+                .add(ModBlocks.BASALT_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.GEODEPACK_BRICK_PRESSURE_PLATE)
 
 
                 .add(ModBlocks.MAGIC_BLOCK);
