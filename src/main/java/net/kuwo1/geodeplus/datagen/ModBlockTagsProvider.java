@@ -81,21 +81,47 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD)
                 .add(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD)
                 .add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER)
+                .add(ModBlocks.BASALT_BRICK_STAIRS)
+                .add(ModBlocks.CALCITE_BRICK_STAIRS)
+                .add(ModBlocks.GEODEPACK_BRICK_STAIRS)
+                .add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS)
+                .add(ModBlocks.AMETHYST_BRICK_STAIRS)
+                .add(ModBlocks.FLUORITE_BRICK_STAIRS)
+                .add(ModBlocks.SALT_BRICK_STAIRS)
+                .add(ModBlocks.SELENITE_BRICK_STAIRS)
+                .add(ModBlocks.FLINT_BRICK_STAIRS)
+                .add(ModBlocks.SPINEL_BRICK_STAIRS)
+                .add(ModBlocks.BERYL_BRICK_STAIRS)
+                .add(ModBlocks.CELESTINE_BRICK_STAIRS)
+                .add(ModBlocks.BASALT_BRICK_SLAB)
+                .add(ModBlocks.CALCITE_BRICK_SLAB)
+                .add(ModBlocks.GEODEPACK_BRICK_SLAB)
+                .add(ModBlocks.AMETHYST_BRICK_SLAB)
+                .add(ModBlocks.FLUORITE_BRICK_SLAB)
+                .add(ModBlocks.SALT_BRICK_SLAB)
+                .add(ModBlocks.SELENITE_BRICK_SLAB)
+                .add(ModBlocks.FLINT_BRICK_SLAB)
+                .add(ModBlocks.SELENITE_BRICK_SLAB)
+                .add(ModBlocks.FLINT_BRICK_SLAB)
+                .add(ModBlocks.SPINEL_BRICK_SLAB)
+                .add(ModBlocks.BERYL_BRICK_SLAB)
+                .add(ModBlocks.CELESTINE_BRICK_SLAB)
+
 
                 .add(ModBlocks.MAGIC_BLOCK);
 
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BASALT_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CALCITE_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.GEODEPACK_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.AMETHYST_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.FLUORITE_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SALT_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SELENITE_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.FLINT_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SPINEL_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BERYL_BRICK_STAIRS);
-        valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CELESTINE_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BASALT_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CALCITE_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.GEODEPACK_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CHOCOLATE_DIAMOND_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.AMETHYST_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.FLUORITE_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SALT_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SELENITE_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.FLINT_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.SPINEL_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.BERYL_BRICK_STAIRS);
+         valueLookupBuilder(BlockTags.STAIRS) .add(ModBlocks.CELESTINE_BRICK_STAIRS);
 
 
         valueLookupBuilder(BlockTags.SLABS) .add(ModBlocks.BASALT_BRICK_SLAB);

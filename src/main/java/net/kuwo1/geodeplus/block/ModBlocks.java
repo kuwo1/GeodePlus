@@ -449,29 +449,29 @@ public class ModBlocks {
                     properties.strength(4f).requiresCorrectToolForDrops()));
 
     public static final Block CALCITE_BRICK_SLAB = registerBlock("calcite_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block BASALT_BRICK_SLAB = registerBlock("basalt_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).sound(SoundType.BASALT).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).sound(SoundType.BASALT).requiresCorrectToolForDrops()));
     public static final Block GEODEPACK_BRICK_SLAB = registerBlock("geodepack_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block CHOCOLATE_DIAMOND_BRICK_SLAB = registerBlock("chocolate_diamond_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block FLUORITE_BRICK_SLAB = registerBlock("fluorite_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block SALT_BRICK_SLAB = registerBlock("salt_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block SELENITE_BRICK_SLAB = registerBlock("selenite_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block FLINT_BRICK_SLAB = registerBlock("flint_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block SPINEL_BRICK_SLAB = registerBlock("spinel_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block BERYL_BRICK_SLAB = registerBlock("beryl_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
     public static final Block CELESTINE_BRICK_SLAB = registerBlock("celestine_brick_slab",
-            properties -> new SlabBlock(properties.strength(4f).requiresCorrectToolForDrops()));
+            properties -> new SlabBlock(properties.strength(2.0f).requiresCorrectToolForDrops()));
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,
