@@ -106,6 +106,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.SPINEL_BRICK_SLAB)
                 .add(ModBlocks.BERYL_BRICK_SLAB)
                 .add(ModBlocks.CELESTINE_BRICK_SLAB)
+                .add(ModBlocks. BASALT_BRICK_BUTTON)
+                .add(ModBlocks. CALCITE_BRICK_BUTTON)
+                .add(ModBlocks. GEODEPACK_BRICK_BUTTON)
 
 
                 .add(ModBlocks.MAGIC_BLOCK);
