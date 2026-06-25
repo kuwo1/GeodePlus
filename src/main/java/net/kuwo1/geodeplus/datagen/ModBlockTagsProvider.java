@@ -112,6 +112,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.BASALT_BRICK_PRESSURE_PLATE)
                 .add(ModBlocks.CALCITE_BRICK_PRESSURE_PLATE)
                 .add(ModBlocks.GEODEPACK_BRICK_PRESSURE_PLATE)
+                .add(ModBlocks.CRACKED_BASALT_BRICKS)
+                .add(ModBlocks.CRACKED_CALCITE_BRICKS)
 
 
                 .add(ModBlocks.MAGIC_BLOCK);

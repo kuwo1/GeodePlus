@@ -406,6 +406,12 @@ public class ModBlocks {
     public static final Block BUDDING_SPINEL = registerBlock("budding_spinel",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+    public static final Block CRACKED_BASALT_BRICKS = registerBlock("cracked_basalt_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.BASALT)));
+    public static final Block CRACKED_CALCITE_BRICKS = registerBlock("cracked_calcite_bricks",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.BASALT)));
 
     public static final Block MAGIC_BLOCK = registerBlock("magic_block",
             properties -> new MagicBlock(properties.strength(2f)

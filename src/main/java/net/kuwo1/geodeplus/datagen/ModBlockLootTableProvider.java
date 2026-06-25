@@ -55,6 +55,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.BUDDING_FLUORITE);
         dropSelf(ModBlocks.BUDDING_SALT);
         dropSelf(ModBlocks.BUDDING_SPINEL);
+        dropSelf(ModBlocks.CRACKED_BASALT_BRICKS);
+        dropSelf(ModBlocks.CRACKED_CALCITE_BRICKS);
 
         add(ModBlocks.SMALL_CELESTINE_BUD, createOreDrop(ModBlocks.SMALL_CELESTINE_BUD, ModItems.CELESTINESHARD));
         dropOther(ModBlocks.MEDIUM_CELESTINE_BUD, ModItems.CELESTINESHARD);

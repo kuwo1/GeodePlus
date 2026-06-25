@@ -10,6 +10,7 @@ import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 import org.apache.commons.codec.language.bm.Rule;
@@ -179,6 +180,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.FLINT),has(Items.FLINT))
                         .group("calcite")
                         .save(output, "flint_shard");
+                oreSmelting(
+                        List.of(ModBlocks.BASALT_BRICKS),
+                        RecipeCategory.MISC,
+                        CookingBookCategory.MISC,
+                        ModBlocks.CRACKED_BASALT_BRICKS,
+                        0.1f,
+                        300,
+                        "basalt_bricks_to_cracked_basalt_bricks"
+
+                );
+                oreSmelting(
+                        List.of(ModBlocks.CALCITE_BRICKS),
+                        RecipeCategory.MISC,
+                        CookingBookCategory.MISC,
+                        ModBlocks.CRACKED_CALCITE_BRICKS,
+                        0.1f,
+                        300,
+                        "basalt_bricks_to_cracked_basalt_bricks"
+                );
+
 
 
                 stairBuilder(ModBlocks.BASALT_BRICK_STAIRS, Ingredient.of(ModBlocks.BASALT_BRICKS))

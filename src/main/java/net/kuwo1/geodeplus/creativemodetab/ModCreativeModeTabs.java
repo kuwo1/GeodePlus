@@ -97,6 +97,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD);
                       output.accept(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD);
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER);
+                      output.accept(ModBlocks.CRACKED_BASALT_BRICKS);
+                      output.accept(ModBlocks.CRACKED_CALCITE_BRICKS);
 
 
 

@@ -95,6 +95,8 @@
     "geode:basalt_brick_pressure_plate",
     "geode:calcite_brick_pressure_plate",
     "geode:geodepack_brick_pressure_plate",
+    "geode:cracked_basalt_bricks",
+    "geode:cracked_calcite_bricks",
     "geode:magic_block"
   ]
 }
