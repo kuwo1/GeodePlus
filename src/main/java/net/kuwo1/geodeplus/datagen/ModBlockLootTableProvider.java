@@ -72,157 +72,188 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
        this.add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+                       this.applyExplosionDecay(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.BERYL_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.BERYL_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.BERYL_CLUSTER, LootItem.lootTableItem(ModItems.BERYLSHARD))
+                       this.applyExplosionDecay(ModBlocks.BERYL_CLUSTER, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_BERYL_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_BERYL_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_BERYL_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_BERYL_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.FLINT_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.FLINT_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.FLINT_CLUSTER, LootItem.lootTableItem(ModItems.FLINTSHARD))
+                       this.applyExplosionDecay(ModBlocks.FLINT_CLUSTER, LootItem.lootTableItem(ModItems.FLINTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_FLINT_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_FLINT_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_FLINT_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_FLINT_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_FLINT_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_FLINT_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SPINEL_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SPINEL_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.SPINEL_CLUSTER, LootItem.lootTableItem(ModItems.SPINELSHARD))
+                       this.applyExplosionDecay(ModBlocks.SPINEL_CLUSTER, LootItem.lootTableItem(ModItems.SPINELSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_SPINEL_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_SPINEL_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_SPINEL_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_SPINEL_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_SPINEL_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_SPINEL_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_SELENITE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_SELENITE_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_SELENITE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_SELENITE_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_SELENITE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_SELENITE_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SELENITE_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SELENITE_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.SELENITE_CLUSTER, LootItem.lootTableItem(ModItems.SELENITESHARD))
+                       this.applyExplosionDecay(ModBlocks.SELENITE_CLUSTER, LootItem.lootTableItem(ModItems.SELENITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.FLUORITE_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.FLUORITE_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.FLUORITE_CLUSTER, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+                       this.applyExplosionDecay(ModBlocks.FLUORITE_CLUSTER, LootItem.lootTableItem(ModItems.FLUORITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_FLUORITE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_FLUORITE_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_FLUORITE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_FLUORITE_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_FLUORITE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_FLUORITE_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SALT_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SALT_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.SALT_CLUSTER, LootItem.lootTableItem(ModItems.SALTSHARD))
+                       this.applyExplosionDecay(ModBlocks.SALT_CLUSTER, LootItem.lootTableItem(ModItems.SALTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_SALT_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_SALT_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_SALT_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_SALT_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_SALT_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_SALT_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.CELESTINE_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.CELESTINE_CLUSTER,
-                       this.applyExplosionDecay(ModBlocks.CELESTINE_CLUSTER, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+                       this.applyExplosionDecay(ModBlocks.CELESTINE_CLUSTER, LootItem.lootTableItem(ModItems.CELESTINESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.LARGE_CELESTINE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.LARGE_CELESTINE_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+                       this.applyExplosionDecay(ModBlocks.LARGE_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.MEDIUM_CELESTINE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.MEDIUM_CELESTINE_BUD,
-                       this.applyExplosionDecay(ModBlocks.MEDIUM_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
        this.add(ModBlocks.SMALL_CELESTINE_BUD,
                this.createSilkTouchDispatchTable(
                        ModBlocks.SMALL_CELESTINE_BUD,
-                       this.applyExplosionDecay(ModBlocks.SMALL_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+                       this.applyExplosionDecay(ModBlocks.SMALL_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
                ));
 
 
