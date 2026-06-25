@@ -61,11 +61,14 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
 
 
 
-       this.add(ModBlocks.LARGE_BERYL_BUD,
-               this.createSilkTouchDispatchTable(
-                       ModBlocks.LARGE_BERYL_BUD,
-                       this.applyExplosionDecay(ModBlocks.LARGE_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
-               ));
+        this.add(ModBlocks.LARGE_BERYL_BUD,
+                this.createSilkTouchDispatchTable(
+                        ModBlocks.LARGE_BERYL_BUD,
+                        this.applyExplosionDecay(ModBlocks.LARGE_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                                .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE)))
+                        )
+                )
+        );
        this.add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
