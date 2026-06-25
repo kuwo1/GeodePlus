@@ -58,37 +58,6 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.CRACKED_BASALT_BRICKS);
         dropSelf(ModBlocks.CRACKED_CALCITE_BRICKS);
 
-        add(ModBlocks.SMALL_CELESTINE_BUD, createOreDrop(ModBlocks.SMALL_CELESTINE_BUD, ModItems.CELESTINESHARD));
-        dropOther(ModBlocks.MEDIUM_CELESTINE_BUD, ModItems.CELESTINESHARD);
-        dropOther(ModBlocks.LARGE_CELESTINE_BUD, ModItems.CELESTINESHARD);
-        dropOther(ModBlocks.CELESTINE_CLUSTER, ModItems.CELESTINESHARD);
-        dropOther(ModBlocks.SMALL_SALT_BUD, ModItems.SALTSHARD);
-        dropOther(ModBlocks.MEDIUM_SALT_BUD, ModItems.SALTSHARD);
-        dropOther(ModBlocks.LARGE_SALT_BUD, ModItems.SALTSHARD);
-        dropOther(ModBlocks.SALT_CLUSTER, ModItems.SALTSHARD);
-        dropOther(ModBlocks.SMALL_FLUORITE_BUD, ModItems.FLUORITESHARD);
-        dropOther(ModBlocks.MEDIUM_FLUORITE_BUD, ModItems.FLUORITESHARD);
-        dropOther(ModBlocks.LARGE_FLUORITE_BUD, ModItems.FLUORITESHARD);
-        dropOther(ModBlocks.FLUORITE_CLUSTER, ModItems.FLUORITESHARD);
-        dropOther(ModBlocks.SELENITE_CLUSTER, ModItems.SELENITESHARD);
-        dropOther(ModBlocks.SMALL_SELENITE_BUD, ModItems.SELENITESHARD);
-        dropOther(ModBlocks.MEDIUM_SELENITE_BUD, ModItems.SELENITESHARD);
-        dropOther(ModBlocks.LARGE_SELENITE_BUD, ModItems.SELENITESHARD);
-        dropOther(ModBlocks.SMALL_SPINEL_BUD, ModItems.SPINELSHARD);
-        dropOther(ModBlocks.MEDIUM_SPINEL_BUD, ModItems.SPINELSHARD);
-        dropOther(ModBlocks.LARGE_SPINEL_BUD, ModItems.SPINELSHARD);
-        dropOther(ModBlocks.SPINEL_CLUSTER, ModItems.SPINELSHARD);
-        dropOther(ModBlocks.SMALL_FLINT_BUD, ModItems.FLINTSHARD);
-        dropOther(ModBlocks.MEDIUM_FLINT_BUD, ModItems.FLINTSHARD);
-        dropOther(ModBlocks.LARGE_FLINT_BUD, ModItems.FLINTSHARD);
-        dropOther(ModBlocks.FLINT_CLUSTER, ModItems.FLINTSHARD);
-        dropOther(ModBlocks.SMALL_BERYL_BUD, ModItems.BERYLSHARD);
-        dropOther(ModBlocks.MEDIUM_BERYL_BUD, ModItems.BERYLSHARD);
-        dropOther(ModBlocks.BERYL_CLUSTER, ModItems.BERYLSHARD);
-        dropOther(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
-        dropOther(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
-        dropOther(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
-        dropOther(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, ModItems.CHOCOLATEDIAMONDSHARD);
 
 
 
@@ -97,9 +66,164 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
                        ModBlocks.LARGE_BERYL_BUD,
                        this.applyExplosionDecay(ModBlocks.LARGE_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
                ));
+       this.add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+               ));
+       this.add(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+               ));
+       this.add(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD))
+               ));
+       this.add(ModBlocks.BERYL_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.BERYL_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.BERYL_CLUSTER, LootItem.lootTableItem(ModItems.BERYLSHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_BERYL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_BERYL_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
+               ));
+       this.add(ModBlocks.SMALL_BERYL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_BERYL_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
+               ));
+       this.add(ModBlocks.FLINT_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.FLINT_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.FLINT_CLUSTER, LootItem.lootTableItem(ModItems.FLINTSHARD))
+               ));
+       this.add(ModBlocks.LARGE_FLINT_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_FLINT_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_FLINT_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_FLINT_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD))
+               ));
+       this.add(ModBlocks.SMALL_FLINT_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_FLINT_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_FLINT_BUD, LootItem.lootTableItem(ModItems.FLINTSHARD))
+               ));
+       this.add(ModBlocks.SPINEL_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SPINEL_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.SPINEL_CLUSTER, LootItem.lootTableItem(ModItems.SPINELSHARD))
+               ));
+       this.add(ModBlocks.LARGE_SPINEL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_SPINEL_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_SPINEL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_SPINEL_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD))
+               ));
+       this.add(ModBlocks.SMALL_SPINEL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_SPINEL_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_SPINEL_BUD, LootItem.lootTableItem(ModItems.SPINELSHARD))
+               ));
+       this.add(ModBlocks.LARGE_SELENITE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_SELENITE_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_SELENITE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_SELENITE_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD))
+               ));
+       this.add(ModBlocks.SMALL_SELENITE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_SELENITE_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_SELENITE_BUD, LootItem.lootTableItem(ModItems.SELENITESHARD))
+               ));
+       this.add(ModBlocks.SELENITE_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SELENITE_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.SELENITE_CLUSTER, LootItem.lootTableItem(ModItems.SELENITESHARD))
+               ));
+       this.add(ModBlocks.FLUORITE_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.FLUORITE_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.FLUORITE_CLUSTER, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+               ));
+       this.add(ModBlocks.LARGE_FLUORITE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_FLUORITE_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_FLUORITE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_FLUORITE_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+               ));
+       this.add(ModBlocks.SMALL_FLUORITE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_FLUORITE_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_FLUORITE_BUD, LootItem.lootTableItem(ModItems.FLUORITESHARD))
+               ));
+       this.add(ModBlocks.SALT_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SALT_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.SALT_CLUSTER, LootItem.lootTableItem(ModItems.SALTSHARD))
+               ));
+       this.add(ModBlocks.LARGE_SALT_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_SALT_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_SALT_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_SALT_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD))
+               ));
+       this.add(ModBlocks.SMALL_SALT_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_SALT_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_SALT_BUD, LootItem.lootTableItem(ModItems.SALTSHARD))
+               ));
+       this.add(ModBlocks.CELESTINE_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.CELESTINE_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.CELESTINE_CLUSTER, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+               ));
+       this.add(ModBlocks.LARGE_CELESTINE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_CELESTINE_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+               ));
+       this.add(ModBlocks.MEDIUM_CELESTINE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_CELESTINE_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+               ));
+       this.add(ModBlocks.SMALL_CELESTINE_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_CELESTINE_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_CELESTINE_BUD, LootItem.lootTableItem(ModItems.CELESTINESHARD))
+               ));
 
 
-        dropSelf(ModBlocks.MAGIC_BLOCK);
+
 
 
         dropSelf(ModBlocks.BASALT_BRICK_STAIRS);
