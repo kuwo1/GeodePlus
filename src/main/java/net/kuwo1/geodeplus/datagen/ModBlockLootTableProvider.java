@@ -91,6 +91,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropOther(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
         dropOther(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, ModItems.CHOCOLATEDIAMONDSHARD);
 
+        dropWhenSilkTouch(ModBlocks.LARGE_BERYL_BUD);
+
+
         dropSelf(ModBlocks.MAGIC_BLOCK);
 
 
