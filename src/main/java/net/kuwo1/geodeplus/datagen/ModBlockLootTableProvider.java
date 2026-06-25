@@ -84,14 +84,19 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropOther(ModBlocks.FLINT_CLUSTER, ModItems.FLINTSHARD);
         dropOther(ModBlocks.SMALL_BERYL_BUD, ModItems.BERYLSHARD);
         dropOther(ModBlocks.MEDIUM_BERYL_BUD, ModItems.BERYLSHARD);
-        dropOther(ModBlocks.LARGE_BERYL_BUD, ModItems.BERYLSHARD);
         dropOther(ModBlocks.BERYL_CLUSTER, ModItems.BERYLSHARD);
         dropOther(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
         dropOther(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
         dropOther(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, ModItems.CHOCOLATEDIAMONDSHARD);
         dropOther(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, ModItems.CHOCOLATEDIAMONDSHARD);
 
-        dropWhenSilkTouch(ModBlocks.LARGE_BERYL_BUD);
+
+
+       this.add(ModBlocks.LARGE_BERYL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_BERYL_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD))
+               ));
 
 
         dropSelf(ModBlocks.MAGIC_BLOCK);
