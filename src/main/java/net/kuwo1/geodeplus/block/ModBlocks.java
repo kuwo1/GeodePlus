@@ -481,13 +481,13 @@ public class ModBlocks {
 
     public static final Block BASALT_BRICK_BUTTON = registerBlock("basalt_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,
-                    properties.strength(3f).sound(SoundType.BASALT).noCollision()));
+                    properties.strength(3f).sound(SoundType.BASALT).noCollision().pushReaction(PushReaction.DESTROY)));
     public static final Block CALCITE_BRICK_BUTTON = registerBlock("calcite_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,
-                    properties.strength(3f).noCollision()));
+                    properties.strength(3f).noCollision().noCollision().pushReaction(PushReaction.DESTROY)));
     public static final Block GEODEPACK_BRICK_BUTTON = registerBlock("geodepack_brick_button",
             properties -> new ButtonBlock(BlockSetType.IRON,20,
-                    properties.strength(3f).noCollision()));
+                    properties.strength(3f).noCollision().noCollision().pushReaction(PushReaction.DESTROY)));
 
     public static final Block BASALT_BRICK_PRESSURE_PLATE = registerBlock("basalt_brick_pressure_plate",
             properties -> new PressurePlateBlock(BlockSetType.IRON,
