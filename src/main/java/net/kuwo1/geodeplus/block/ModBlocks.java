@@ -412,7 +412,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block BUDDING_BERYL = registerBlock("budding_beryl",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
    public static final Block BERYL_BRICKS = registerBlock("beryl_bricks",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -430,7 +431,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
    public static final Block BUDDING_SELENITE = registerBlock("budding_selenite",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
    public static final Block SALT_BLOCK = registerBlock("salt_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -445,7 +447,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final Block BUDDING_FLINT = registerBlock("budding_flint",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
     public static final Block CHOCOLATE_DIAMOND_BLOCK = registerBlock("chocolate_diamond_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -454,7 +457,8 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final Block BUDDING_CHOCOLATE_DIAMOND = registerBlock("budding_chocolate_diamond",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
     public static final Block FLUORITE_BLOCK = registerBlock("fluorite_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
@@ -463,13 +467,16 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
     public static final Block BUDDING_FLUORITE = registerBlock("budding_fluorite",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
     public static final Block BUDDING_SALT = registerBlock("budding_salt",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
     public static final Block BUDDING_SPINEL = registerBlock("budding_spinel",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+                    .pushReaction(PushReaction.DESTROY)));
     public static final Block CRACKED_BASALT_BRICKS = registerBlock("cracked_basalt_bricks",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.BASALT)));
