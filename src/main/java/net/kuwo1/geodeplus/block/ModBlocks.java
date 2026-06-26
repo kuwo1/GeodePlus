@@ -444,7 +444,7 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
     public static final Block FLINT_BRICKS = registerBlock("flint_bricks",
             properties -> new Block(properties.strength(3f)
-                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE_BRICKS)));
     public static final Block BUDDING_FLINT = registerBlock("budding_flint",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
