@@ -406,7 +406,6 @@ public class ModBlocks {
 
 
 
-
    public static final Block BERYL_BLOCK = registerBlock("beryl_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));

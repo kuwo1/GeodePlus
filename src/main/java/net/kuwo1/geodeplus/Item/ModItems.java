@@ -2,6 +2,7 @@ package net.kuwo1.geodeplus.Item;
 
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.kuwo1.geodeplus.Geode;
+import net.kuwo1.geodeplus.food.ModFoods;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -20,10 +21,12 @@ public class ModItems {
     public static final Item BERYLSHARD = registerItem("beryl_shard", Item::new);
     public static final Item SPINELSHARD = registerItem("spinel_shard", Item::new);
     public static final Item FLUORITESHARD = registerItem("fluorite_shard", Item::new);
-    public static final Item CHOCOLATEDIAMONDSHARD = registerItem("chocolate_diamond_shard", Item::new);
     public static final Item SALTSHARD = registerItem("salt_shard", Item::new);
     public static final Item SELENITESHARD = registerItem("selenite_shard", Item::new);
     public static final Item FLINTSHARD = registerItem("flint_shard", Item::new);
+
+    public static final Item CHOCOLATEDIAMONDSHARD = registerItem("chocolate_diamond_shard", properties -> new Item(properties
+            .food(ModFoods.CHOCOLATEDIAMONDSHARD, ModFoods.CHOCOLATEDIAMONDSHARD_CONSUMABLE)));
 
 
 
