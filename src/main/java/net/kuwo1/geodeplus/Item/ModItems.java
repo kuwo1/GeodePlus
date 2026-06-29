@@ -24,6 +24,7 @@ public class ModItems {
     public static final Item SALTSHARD = registerItem("salt_shard", Item::new);
     public static final Item SELENITESHARD = registerItem("selenite_shard", Item::new);
     public static final Item FLINTSHARD = registerItem("flint_shard", Item::new);
+    public static final Item CHOCOLATEDIAMONDSHARD = registerItem("chocolate_diamond_shard", Item::new);
 
 
 

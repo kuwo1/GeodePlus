@@ -145,6 +145,7 @@ public class ModModelProvider extends FabricModelProvider {
     itemModelGenerators.generateFlatItem(ModItems.SALTSHARD, ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(ModItems.SELENITESHARD, ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(ModItems.FLINTSHARD, ModelTemplates.FLAT_ITEM);
+    itemModelGenerators.generateFlatItem(ModItems.CHOCOLATEDIAMONDSHARD, ModelTemplates.FLAT_ITEM);
 
     itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.SMALL_CELESTINE_BUD),ModelTemplates.FLAT_ITEM);
     itemModelGenerators.generateFlatItem(Item.byBlock(ModBlocks.MEDIUM_CELESTINE_BUD),ModelTemplates.FLAT_ITEM);

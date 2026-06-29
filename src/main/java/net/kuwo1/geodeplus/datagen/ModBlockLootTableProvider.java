@@ -62,48 +62,48 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
                         )
                 )
         );
-      // this.add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
-        //       this.createSilkTouchDispatchTable(
-         //              ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
-         //              this.applyExplosionDecay(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
-         //                      .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-          //     ));
-      // this.add(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
-      //         this.createSilkTouchDispatchTable(
-       //                ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
-      //                 this.applyExplosionDecay(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
-      //                         .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-     //          ));
-      // this.add(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
-       //        this.createSilkTouchDispatchTable(
-       //                ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
-       //                this.applyExplosionDecay(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
-        //                       .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-        //       ));
-      // this.add(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
-       //        this.createSilkTouchDispatchTable(
-       //                ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
-       //                this.applyExplosionDecay(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
-       //                        .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-        //       ));
-      // this.add(ModBlocks.BERYL_CLUSTER,
-       //        this.createSilkTouchDispatchTable(
-        //               ModBlocks.BERYL_CLUSTER,
-       //                this.applyExplosionDecay(ModBlocks.BERYL_CLUSTER, LootItem.lootTableItem(ModItems.BERYLSHARD)
-         //                      .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-         //      ));
-    //   this.add(ModBlocks.MEDIUM_BERYL_BUD,
-     //          this.createSilkTouchDispatchTable(
-      //                 ModBlocks.MEDIUM_BERYL_BUD,
-      //                 this.applyExplosionDecay(ModBlocks.MEDIUM_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
-       //                        .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-       //        ));
-     //  this.add(ModBlocks.SMALL_BERYL_BUD,
-      //         this.createSilkTouchDispatchTable(
-      //                 ModBlocks.SMALL_BERYL_BUD,
-      //                 this.applyExplosionDecay(ModBlocks.SMALL_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
-       //                        .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-        //       ));
+       this.add(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.CHOCOLATE_DIAMOND_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                              .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
+       this.add(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD,
+                       this.applyExplosionDecay(ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
+       this.add(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
+       this.add(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_CHOCOLATE_DIAMOND_BUD, LootItem.lootTableItem(ModItems.CHOCOLATEDIAMONDSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
+       this.add(ModBlocks.BERYL_CLUSTER,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.BERYL_CLUSTER,
+                       this.applyExplosionDecay(ModBlocks.BERYL_CLUSTER, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
+       this.add(ModBlocks.MEDIUM_BERYL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.MEDIUM_BERYL_BUD,
+                       this.applyExplosionDecay(ModBlocks.MEDIUM_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
+       this.add(ModBlocks.SMALL_BERYL_BUD,
+               this.createSilkTouchDispatchTable(
+                       ModBlocks.SMALL_BERYL_BUD,
+                       this.applyExplosionDecay(ModBlocks.SMALL_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
+                               .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
+               ));
        this.add(ModBlocks.FLINT_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.FLINT_CLUSTER,
