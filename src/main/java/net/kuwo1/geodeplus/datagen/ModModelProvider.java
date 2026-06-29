@@ -66,8 +66,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockModelGenerators.createTrivialCube(ModBlocks.CRACKED_CALCITE_BRICKS);
         blockModelGenerators.createTrivialCube(ModBlocks.CRACKED_BASALT_BRICKS);
 
-        blockModelGenerators.createTrivialCube(ModBlocks.SLAG);
-        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLAG);
+
 
         blockModelGenerators.createTrivialCube(ModBlocks.MAGIC_BLOCK);
 

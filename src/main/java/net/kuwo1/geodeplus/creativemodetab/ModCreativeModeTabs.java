@@ -98,8 +98,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER);
                       output.accept(ModBlocks.CRACKED_BASALT_BRICKS);
                       output.accept(ModBlocks.CRACKED_CALCITE_BRICKS);
-                      output.accept(ModBlocks.DEEPSLAG);
-                      output.accept(ModBlocks.SLAG);
+
 
 
 

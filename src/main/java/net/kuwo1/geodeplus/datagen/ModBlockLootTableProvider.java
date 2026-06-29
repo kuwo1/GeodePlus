@@ -49,8 +49,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         dropSelf(ModBlocks.FLUORITE_BRICKS);
         dropSelf(ModBlocks.CRACKED_BASALT_BRICKS);
         dropSelf(ModBlocks.CRACKED_CALCITE_BRICKS);
-        dropSelf(ModBlocks.SLAG);
-        dropSelf(ModBlocks.DEEPSLAG);
+
 
 
 
@@ -104,7 +103,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
       //                 ModBlocks.SMALL_BERYL_BUD,
       //                 this.applyExplosionDecay(ModBlocks.SMALL_BERYL_BUD, LootItem.lootTableItem(ModItems.BERYLSHARD)
        //                        .apply(ApplyBonusCount.addOreBonusCount(this.registries.lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(Enchantments.FORTUNE))))
-       //        ));
+        //       ));
        this.add(ModBlocks.FLINT_CLUSTER,
                this.createSilkTouchDispatchTable(
                        ModBlocks.FLINT_CLUSTER,
