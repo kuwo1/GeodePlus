@@ -149,7 +149,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .group("calcite")
                         .save(output, "chocolate_diamond_bricks");
                 shaped(RecipeCategory.MISC,Items.FLINT)
-                        .pattern("F")
+                        .pattern("FF")
                         .define('F',ModItems.FLINTSHARD)
                         .unlockedBy(getHasName(ModItems.FLINTSHARD),has(ModItems.FLINTSHARD))
                         .group("calcite");
