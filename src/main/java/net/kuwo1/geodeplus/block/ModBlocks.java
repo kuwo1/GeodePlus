@@ -409,6 +409,14 @@ public class ModBlocks {
    public static final Block BERYL_BLOCK = registerBlock("beryl_block",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
+   public static final Block SLAG = registerBlock("slag",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+   public static final Block DEEPSLAG = registerBlock("deepslag",
+            properties -> new Block(properties.strength(3f)
+                    .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+
    public static final Block BUDDING_BERYL = registerBlock("budding_beryl",
             properties -> new Block(properties.strength(3f)
                     .requiresCorrectToolForDrops().sound(SoundType.AMETHYST)

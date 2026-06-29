@@ -141,13 +141,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.FLINT_BLOCK),has(ModBlocks.FLINT_BLOCK))
                         .group("calcite")
                         .save(output, "flint_bricks");
-                shaped(RecipeCategory.MISC,ModBlocks.CHOCOLATE_DIAMOND_BLOCK)
-                        .pattern("CC")
-                        .pattern("CC")
-                        .define('C',ModItems.CHOCOLATEDIAMONDSHARD)
-                        .unlockedBy(getHasName(ModItems.CHOCOLATEDIAMONDSHARD),has(ModItems.CHOCOLATEDIAMONDSHARD))
-                        .group("calcite")
-                        .save(output, "chocolate_diamond_block");
                 shaped(RecipeCategory.MISC,ModBlocks.CHOCOLATE_DIAMOND_BRICKS, 4)
                         .pattern("CC")
                         .pattern("CC")
@@ -180,13 +173,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.FLINT),has(Items.FLINT))
                         .group("calcite")
                         .save(output, "flint_shard");
+
                 oreSmelting(
                         List.of(ModBlocks.BASALT_BRICKS),
                         RecipeCategory.MISC,
                         CookingBookCategory.MISC,
                         ModBlocks.CRACKED_BASALT_BRICKS,
                         0.1f,
-                        300,
+                        200,
                         "basalt_bricks_to_cracked_basalt_bricks"
 
                 );
@@ -196,7 +190,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         CookingBookCategory.MISC,
                         ModBlocks.CRACKED_CALCITE_BRICKS,
                         0.1f,
-                        300,
+                        200,
                         "basalt_bricks_to_cracked_basalt_bricks"
                 );
 

@@ -25,8 +25,7 @@ public class ModItems {
     public static final Item SELENITESHARD = registerItem("selenite_shard", Item::new);
     public static final Item FLINTSHARD = registerItem("flint_shard", Item::new);
 
-    public static final Item CHOCOLATEDIAMONDSHARD = registerItem("chocolate_diamond_shard", properties -> new Item(properties
-            .food(ModFoods.CHOCOLATEDIAMONDSHARD, ModFoods.CHOCOLATEDIAMONDSHARD_CONSUMABLE)));
+
 
 
 

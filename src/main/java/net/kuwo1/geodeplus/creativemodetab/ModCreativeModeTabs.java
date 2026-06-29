@@ -23,7 +23,6 @@ public class ModCreativeModeTabs {
                       output.accept(ModItems.BERYLSHARD);
                       output.accept(ModItems.SPINELSHARD);
                       output.accept(ModItems.FLUORITESHARD);
-                      output.accept(ModItems.CHOCOLATEDIAMONDSHARD);
                       output.accept(ModItems.SALTSHARD);
                       output.accept(ModItems.SELENITESHARD);
                       output.accept(ModItems.FLINTSHARD);
@@ -99,6 +98,8 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.CHOCOLATE_DIAMOND_CLUSTER);
                       output.accept(ModBlocks.CRACKED_BASALT_BRICKS);
                       output.accept(ModBlocks.CRACKED_CALCITE_BRICKS);
+                      output.accept(ModBlocks.DEEPSLAG);
+                      output.accept(ModBlocks.SLAG);
 
 
 
