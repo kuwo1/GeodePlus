@@ -17,8 +17,6 @@ public class ModCreativeModeTabs {
             FabricCreativeModeTab.builder().icon(()-> new ItemStack(ModItems.BASALTCLUMP))
                     .title(Component.translatable("creativemodetab.geode.geode_items"))
                     .displayItems((parameters, output) -> {
-                      output.accept(ModItems.BASALTCLUMP);
-                      output.accept(ModItems.CALCITECLUMP);
                       output.accept(ModItems.CELESTINESHARD);
                       output.accept(ModItems.BERYLSHARD);
                       output.accept(ModItems.SPINELSHARD);

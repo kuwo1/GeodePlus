@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.kuwo1.geodeplus.Item.ModItems;
 import net.kuwo1.geodeplus.block.ModBlocks;
+import net.kuwo1.geodeplus.tags.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
@@ -13,6 +14,7 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import org.apache.commons.codec.language.bm.Rule;
 import org.intellij.lang.annotations.Identifier;
 import org.jetbrains.annotations.NotNull;
@@ -141,6 +143,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(ModBlocks.FLINT_BLOCK),has(ModBlocks.FLINT_BLOCK))
                         .group("calcite")
                         .save(output, "flint_bricks");
+                shaped(RecipeCategory.MISC,ModBlocks.GEODEPACK_BLOCK, 4)
+                        .pattern("FR")
+                        .pattern("RF")
+                        .define('F', Blocks.BASALT)
+                        .define('R', Blocks.CALCITE)
+                        .unlockedBy(getHasName(Blocks.CALCITE),has(Blocks.CALCITE))
+                        .group("calcite")
+                        .save(output, "geodepack_block");
                 shaped(RecipeCategory.MISC,ModBlocks.CHOCOLATE_DIAMOND_BRICKS, 4)
                         .pattern("CC")
                         .pattern("CC")
