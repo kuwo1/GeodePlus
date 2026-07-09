@@ -66,7 +66,7 @@ public class ModConfiguredFeatures {
                         ModBlocks.LARGE_CELESTINE_BUD.defaultBlockState(),
                         ModBlocks.CELESTINE_CLUSTER.defaultBlockState()),
                 blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
-                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),,
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
