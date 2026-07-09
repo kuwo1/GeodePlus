@@ -612,6 +612,11 @@ public class ModBlocks {
             properties -> new WallBlock(properties.strength(4f).requiresCorrectToolForDrops()));
 
 
+    public static ResourceKey<Block> getRK(Block block){
+        return BuiltInRegistries.BLOCK.getResourceKey(block).get();
+    }
+
+
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function){

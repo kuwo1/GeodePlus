@@ -27,6 +27,11 @@ public class ModItems {
     public static final Item CHOCOLATEDIAMONDSHARD = registerItem("chocolate_diamond_shard", Item::new);
 
 
+    public static ResourceKey<Item> getRK(Item item){
+        return BuiltInRegistries.ITEM.getResourceKey(item).get();
+    }
+
+
 
 
 
