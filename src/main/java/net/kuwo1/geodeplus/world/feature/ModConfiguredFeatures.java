@@ -4,6 +4,7 @@ import net.kuwo1.geodeplus.Geode;
 import net.kuwo1.geodeplus.block.ModBlocks;
 import net.kuwo1.geodeplus.block.ModBlocks;
 import net.kuwo1.geodeplus.tags.ModTags;
+import net.minecraft.core.HolderGetter;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -11,6 +12,7 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.GeodeBlockSettings;
 import net.minecraft.world.level.levelgen.GeodeCrackSettings;
@@ -37,6 +39,7 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> SPINEL_GEODE = registerKey("spinel_geode");
 
     public static void bootstrap(final BootstrapContext<ConfiguredFeature<?, ?>> context) {
+        HolderGetter<Block> blockGetter = context.lookup(Registries.BLOCK);
         register(context, SELENITE_GEODE, Feature.GEODE, new GeodeConfiguration(new GeodeBlockSettings(BlockStateProvider.simple(Blocks.AIR),
                 BlockStateProvider.simple(ModBlocks.SELENITE_BLOCK),
                 BlockStateProvider.simple(ModBlocks.BUDDING_SELENITE),
@@ -62,7 +65,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_CELESTINE_BUD.defaultBlockState(),
                         ModBlocks.LARGE_CELESTINE_BUD.defaultBlockState(),
                         ModBlocks.CELESTINE_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),,
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
@@ -77,7 +81,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_CHOCOLATE_DIAMOND_BUD.defaultBlockState(),
                         ModBlocks.LARGE_CHOCOLATE_DIAMOND_BUD.defaultBlockState(),
                         ModBlocks.CHOCOLATE_DIAMOND_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
@@ -92,7 +97,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_FLINT_BUD.defaultBlockState(),
                         ModBlocks.LARGE_FLINT_BUD.defaultBlockState(),
                         ModBlocks.FLINT_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
@@ -107,7 +113,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_FLUORITE_BUD.defaultBlockState(),
                         ModBlocks.LARGE_FLUORITE_BUD.defaultBlockState(),
                         ModBlocks.FLUORITE_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
@@ -122,7 +129,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_BERYL_BUD.defaultBlockState(),
                         ModBlocks.LARGE_BERYL_BUD.defaultBlockState(),
                         ModBlocks.BERYL_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
@@ -137,7 +145,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_SALT_BUD.defaultBlockState(),
                         ModBlocks.LARGE_SALT_BUD.defaultBlockState(),
                         ModBlocks.SALT_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
@@ -152,7 +161,8 @@ public class ModConfiguredFeatures {
                         ModBlocks.MEDIUM_SPINEL_BUD.defaultBlockState(),
                         ModBlocks.LARGE_SPINEL_BUD.defaultBlockState(),
                         ModBlocks.SPINEL_CLUSTER.defaultBlockState()),
-                BlockTags.FEATURES_CANNOT_REPLACE, BlockTags.GEODE_INVALID_BLOCKS),
+                blockGetter.getOrThrow(BlockTags.FEATURES_CANNOT_REPLACE),
+                blockGetter.getOrThrow(BlockTags.GEODE_INVALID_BLOCKS)),
                 new GeodeLayerSettings(1.7, 2.2, 3.2, 4.2),
                 new GeodeCrackSettings(0.95, (double)2.0F, 2),
                 0.35, 0.083, true,
